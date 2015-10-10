@@ -19,14 +19,32 @@
 		overflow: auto;
 	}
 
-	.comics ul {
-		text-align: center;
-	}
+	/* comics */
+		.comics ul {
+			text-align: center;
+		}
 
-	.comics li {
-		display: inline-block;
-		margin: 0.5em;
-	}
+		.comics li {
+			display: inline-block;
+			margin: 1em;
+			position: relative;
+		}
+
+		.comics li:hover>div, li:active>div{
+			bottom: 0px;
+			left: 0px;
+			position: absolute;
+			width: 100%;
+			text-align: left;
+			padding: 5%;
+			display: block;
+			background-color: rgba(255, 255, 255, 0.87) !important;
+			color: 
+		}
+
+		.comics div {
+			display: none;
+		}
 
 /* NavBar */
 
