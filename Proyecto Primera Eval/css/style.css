@@ -1,39 +1,57 @@
 /* estilos maquetacion */
-main {
-	padding-left: 240px;
-}
+	
+	main {
+		padding-left: 240px;
+	}
 
-#titulo-seccion {
-	height: 2.5em;
-	padding: 0.5em 1em;
-	font-size: 1.5em;
-	color: #fff;
-}
+/* secciones */
+	#titulo-seccion {
+		height: 2.5em;
+		font-size: 2em;
+		padding: 0.5em 1em;
+		color: #fff;
+	}
 
-#seccion {
-	margin: 2em;
-	padding: 1em;
-	background-color: #eceff1;
-}
+	#seccion {
+		margin: 2em;
+		padding: 1em;
+		background-color: #eceff1;
+		overflow: auto;
+	}
 
-#navBar-back {
-	background-color: rgba(0, 0, 0, 0.5);
-	position: absolute;
-	z-index: 900;
-	height: 0;
-	width: 100%;
-	left: 0;
-	right: 0;
-}
+	.comics ul {
+		text-align: center;
+	}
 
-#buttonNav {
-	background-color: rgba(0, 0, 0, 0);
-}
+	.comics li {
+		display: inline-block;
+		margin: 0.5em;
+	}
+
+/* NavBar */
+
+	#navBar {
+		font-size: 1.1em;
+	}
+
+	#navBar-back {
+		background-color: rgba(0, 0, 0, 0.5);
+		position: absolute;
+		z-index: 900;
+		height: 0;
+		width: 100%;
+		left: 0;
+		right: 0;
+	}
+
+	#buttonNav {
+		background-color: rgba(0, 0, 0, 0);
+	}
 
 /* colores */
-.side-nav li:hover, .side-nav li.active {
-	background-color: #90a4ae;
-}
+	.side-nav li:hover, .side-nav li.active {
+		background-color: #90a4ae;
+	}
 
 /* medias */
 @media (max-width: 992px) {

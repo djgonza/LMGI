@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+	/* utilidades */
 	function ocultarNavBar () {
 		$("#navBar-back").css("height", "0");
 		if($(window).width() < 992)
@@ -64,7 +65,6 @@ $(document).ready(function() {
 		});
 
 	/* Botones */
-	
 
 
 
