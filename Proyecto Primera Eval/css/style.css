@@ -77,3 +77,9 @@
 		padding-left: 0;
 	}
 }
+
+@media (min-width: 992px) {
+	#navBar {
+		left: 0 !important;
+	}
+}
