@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tablas</title>
+</head>
+<body>
+
+	<!-- Tabla contenedor -->
+	<table border="1">
+		<tr>
+			<td>
+				<p style="text-align: center;">Tabla 1: Celdas con cabecera (th) y borde</p>
+
+				<!-- Tabla 1 -->
+				<table border="1">
+					<tr>
+						<th>Nombre</th>
+						<th>Teléfono</th>
+						<th>Dirección</th>
+					</tr>
+					<tr>
+						<td>Marta Huici</td>
+						<td>606554477</td>
+						<td>C/ Mayor nº22 4º Dcha.</td>
+					</tr>
+					<tr>
+						<td>Ane Etxeberria</td>
+						<td>666888555</td>
+						<td>C/ Lucas Madoz nº13 3º Izq.</td>
+					</tr>
+				</table>
+
+			</td>
+			<td>
+				<p style="text-align: center;">Tabla 2: Borde Tabla 10</p>
+
+				<!-- Tabla 2 -->
+				<table border="10" style="margin: 0 auto;">
+					<tr>
+						<td>Patatas</td>
+						<td>2.35€</td>
+						<td><img src="imagenes/patatas.jpg" alt="Patata" height="50" width="50"></td>
+					</tr>
+					<tr>
+						<td>Tomate</td>
+						<td>2.50€</td>
+						<td><img src="imagenes/tomates.jpg" alt="Patata" height="50" width="50"></td>
+					</tr>
+					<tr>
+						<td>Lechuga</td>
+						<td>0.95€</td>
+						<td><img src="imagenes/lechuga.jpg" alt="Patata" height="50" width="50"></td>
+					</tr>
+				</table>
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p style="text-align: center;">Tabla 3: Agrupar Celdas Horizontalmente</p>
+
+				<!-- Tabla 3 -->
+				<table border="1" style="margin: 0 auto;">
+					<tr>
+						<td colspan="3" style="text-align: center;">Titulo</td>
+					</tr>
+					<tr>
+						<td>A</td>
+						<td rowspan="2">B</td>
+						<td>C</td>
+					</tr>
+					<tr>
+						<td>D</td>
+						<td>F</td>
+					</tr>
+				</table>
+
+			</td>
+			<td>
+				<p style="text-align: center;">Tabla 3: Agrupar Celdas Verticalmente</p>
+				
+				<!-- Tabla 4 -->
+				<table border="1" style="margin: 0 auto;">
+					<tr>
+						<td rowspan="3">Titulo</td>
+						<td>A</td>
+						<td>D</td>
+					</tr>
+					<tr>
+						<td>B</td>
+						<td>E</td>
+					</tr>
+					<tr>
+						<td colspan="2"><a href="#">Un Enlace</a></td>
+					</tr>
+				</table>
+
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>
