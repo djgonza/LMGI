@@ -5,7 +5,7 @@ html {
 }
 
 body {
-	background-image: url("../img/fondo2.jpg") !important;
+	background-image: url("../img/fondo1.jpg") !important;
 	background-color: #000 !important;
 	background-size: 100% !important;
 	background-repeat: no-repeat !important;
@@ -29,7 +29,7 @@ ul {margin: 0;}
     border-radius: 10em;
     position: absolute;
     top: -100%;
-    border: solid 0.8em rgba(214, 44, 44, 0.75);
+    border: solid 0.2em rgba(214, 44, 44, 0.75);
     animation: icono 3s forwards;
 }
 
@@ -144,27 +144,27 @@ ul {margin: 0;}
 
 @keyframes navIconoComic {
 	from{ left: 17%; top: 60%; width: 10%;}
-    to {left: 1%; top: 15%; width: 5%;border-width: 0.5em;}
+    to {left: 1%; top: 15%; width: 5%;}
 }
 
 @keyframes navIconoContacto {
 	from{ left: 32%; top: 60%; width: 10%;}
-    to {left: 1%; top: 30%; width: 5%;border-width: 0.5em;}
+    to {left: 1%; top: 30%; width: 5%;}
 }
 
 @keyframes navIconoPeliculas {
 	from{ left: 47%; top: 60%; width: 10%;}
-    to {left: 1%; top: 45%; width: 5%;border-width: 0.5em;}
+    to {left: 1%; top: 45%; width: 5%;}
 }
 
 @keyframes navIconoHistoria {
 	from{ left: 62%; top: 60%; width: 10%;}
-    to {left: 1%; top: 60%; width: 5%;border-width: 0.5em;}
+    to {left: 1%; top: 60%; width: 5%;}
 }
 
 @keyframes navIconoGaleria {
 	from{ left: 77%; top: 60%; width: 10%;}
-    to {left: 1%; top: 75%; width: 5%;border-width: 0.5em;}
+    to {left: 1%; top: 75%; width: 5%;}
 }
 
 @keyframes mostrarTituloSeccion {
