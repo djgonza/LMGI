@@ -1,3 +1,9 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    color: #ffeb3b;
+    text-shadow: 2px 2px 5px rgba(255, 253, 231, 0.75);
+}
+
 body {
 	background-image: url("../img/fondo2.jpg") !important;
 	background-color: #000 !important;
@@ -23,13 +29,12 @@ ul {margin: 0;}
     border-radius: 10em;
     position: absolute;
     top: -100%;
-    box-shadow: 0px 0px 50px 2px rgba(255,255,255,0.5);
     border: solid 0.8em rgba(214, 44, 44, 0.75);
     animation: icono 3s forwards;
 }
 
 .icono:hover {
-	box-shadow: 0px 0px 50px 2px rgba(255,255,255,0.5);
+	box-shadow: 0px 0px 50px 2px rgba(255, 253, 231, 0.75);
 }
 
 #navegacion {
@@ -55,7 +60,6 @@ ul {margin: 0;}
 #tituloSeccion span {
 	font-size: 200%; 
 	text-align: center;
-	color: #fff;
 	margin: auto;
 }
 
@@ -91,6 +95,21 @@ ul {margin: 0;}
 			animation-delay: 6s;
 		}
 	
+/* Contenido */
+	main section {
+		position: absolute;
+		height: 0;
+		width: 0;
+		background-color: rgba(214, 44, 44, 0.3);
+    	border: solid 1px rgba(214, 44, 44, 0.7);
+    	border-radius: 3em 0 0 3em;
+	}
+
+	#contentComics {
+
+	}
+
+
 /* Animaciones */
 @keyframes fondo {
     from {background-color: rgba(0, 0, 0, 1);}
@@ -156,6 +175,64 @@ ul {margin: 0;}
 @keyframes ocultarTituloSeccion {
 	from{ top: -10%;}
     to {top: -20%;}
+}
+
+@keyframes mostrarFondoSection {
+	from{ 
+		top: 10%;
+    	left: 100%;
+    	height: 0;
+		width: 0;
+		display: block;
+	}
+	40% {
+		top: 10%;
+    	left: 10%;
+    	height: 3%;
+		width: 90%;
+	}
+	99% {
+		top: 10%;
+    	left: 10%;
+    	height: 80%;
+		width: 90%;
+	}
+    to {
+    	top: 10%;
+    	left: 10%;
+    	height: 80%;
+		width: 90%;
+		display: block;
+    }
+}
+
+@keyframes ocultarFondoSection {
+	from{ 
+		top: 10%;
+    	left: 10%;
+    	height: 80%;
+		width: 90%;
+		display: block;
+	}
+	40% {
+		top: 10%;
+    	left: 10%;
+    	height: 3%;
+		width: 90%;
+	}
+	99% {
+		top: 10%;
+    	left: 100%;
+    	height: 0%;
+		width: 0%;
+	}
+    to {
+    	top: 10%;
+    	left: 100%;
+    	height: 0;
+		width: 0;
+		display: block;
+    }
 }
 
 

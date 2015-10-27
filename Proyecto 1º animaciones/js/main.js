@@ -8,19 +8,37 @@ $(document).ready(function() {
 
 	}
 
-	function ocultarTituloSeccion (texto) {
+	function ocultarTituloSeccion () {
 		$("#tituloSeccion").css("animation", "ocultarTituloSeccion 3s forwards");
-		window.setTimeout(function () {
-			mostrarTituloSeccion (texto);
-		}, 2000);
+	}
+
+	function ocultarFondoSection () {
+		$("#content").css("animation", "ocultarFondoSection 3s forwards");
+	}
+
+	function mostrarFondoSection () {
+		$("#content").css("animation", "mostrarFondoSection 5s forwards");
 	}
 
 	function clickIcono (nombreSeccion) {
 		if (seccion == "") {
+
 			navIconos ();
 			mostrarTituloSeccion (nombreSeccion);
+			mostrarFondoSection ();
+
 		}else if (seccion != nombreSeccion){
+
 			ocultarTituloSeccion(nombreSeccion);
+			window.setTimeout(function () {
+				mostrarTituloSeccion (nombreSeccion);
+			}, 2000);
+
+			ocultarFondoSection ();
+			window.setTimeout(function () {
+				mostrarFondoSection ();
+			}, 3000);
+
 		}
 		seccion = nombreSeccion;
 	}
