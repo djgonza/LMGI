@@ -23,21 +23,15 @@ ul {margin: 0;}
     border-radius: 10em;
     position: absolute;
     top: -100%;
-<<<<<<< HEAD
-=======
     box-shadow: 0px 0px 50px 2px rgba(255,255,255,0.5);
->>>>>>> origin/master
     border: solid 0.8em rgba(214, 44, 44, 0.75);
     animation: icono 3s forwards;
 }
 
-<<<<<<< HEAD
 .icono:hover {
 	box-shadow: 0px 0px 50px 2px rgba(255,255,255,0.5);
 }
 
-=======
->>>>>>> origin/master
 #navegacion {
 	height: 100%;
     width: 100%;
@@ -47,17 +41,22 @@ ul {margin: 0;}
 #tituloSeccion {
 	position: absolute;
 	width: 80%;
-	height: 20%;
+	height: 17%;
     border-radius: 35%;
-    position: absolute;
     left: 10%;
-    top: -20%;
+    top: -50%;
     padding-top: 5.5%;
     background-color: rgba(214, 44, 44, 0.3);
     border: solid 1px rgba(214, 44, 44, 0.7);
-    color: #fff;
-    text-align: center;
-    font-size: 3em;
+    display: flex;
+   
+}
+
+#tituloSeccion span {
+	font-size: 200%; 
+	text-align: center;
+	color: #fff;
+	margin: auto;
 }
 
 /* iconos */
@@ -92,16 +91,12 @@ ul {margin: 0;}
 			animation-delay: 6s;
 		}
 	
-
 /* Animaciones */
 @keyframes fondo {
     from {background-color: rgba(0, 0, 0, 1);}
     99% {background-color: rgba(255, 255, 255, 0);}
-<<<<<<< HEAD
     to {background-color: rgba(255, 255, 255, 0); top: -100%; display: hidden;}
-=======
     to {background-color: rgba(255, 255, 255, 0); top: -100%;}
->>>>>>> origin/master
 }
 
 @keyframes icono {

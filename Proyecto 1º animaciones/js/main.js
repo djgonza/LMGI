@@ -4,7 +4,7 @@ $(document).ready(function() {
 
 	function mostrarTituloSeccion (texto) {
 		$("#tituloSeccion").css("animation", "mostrarTituloSeccion 3s forwards");
-		$("#tituloSeccion").html(texto);
+		$("#tituloSeccion").html("<span>"+texto+"</span>");
 
 	}
 
