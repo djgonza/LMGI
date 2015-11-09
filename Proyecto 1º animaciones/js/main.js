@@ -64,6 +64,7 @@ $(document).ready(function() {
 	});
 	$("#iconoPeliculas").click(function() {
 		clickIcono ("Peliculas");
+		$("#peliculas>iframe").css("animation: trailer 5s forwards");
 	});
 	$("#iconoGaleria").click(function() {
 		clickIcono ("Galeria");

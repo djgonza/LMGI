@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Tablas</title>
+	<style>
+		.rojo {
+			color: #FF0606;
+		}
+
+		.azul {
+			color: #0696FF;
+		}
+	</style>
+</head>
+<body style="text-align: center;">
+	
+	<table border="1">
+		<tr>
+			<td>
+				<p>Tabla 5.Espacio interior de las celdas y con titulo</p>
+				<p>
+					<table border="1" style="margin: 0 auto;">
+						<caption>Flores y significado</caption>
+						<tr>
+							<td><img src="imagenes/acedera.jpg" alt="" height="" width=""></td>
+							<td>Acedera</td>
+							<td>Significado: Paciencia</td>
+						</tr>
+						<tr>
+							<td><img src="imagenes/acacia.jpg" alt="" height="" width=""></td>
+							<td>Acacia</td>
+							<td>Significado: Elegancia</td>
+						</tr>
+						<tr>
+							<td><img src="imagenes/azalea.jpg" alt="" height="" width=""></td>
+							<td>Azalea</td>
+							<td>Significado: Templanza</td>
+						</tr>
+					</table>
+				</p>
+			</td>
+			<td>
+				<p>Tabla 6. Espacios entre celdas.</p>
+				<p>Usa tBody tfoot para darle estilo</p>
+				<p>
+					<table border="1" style="margin: 0 auto;">
+						<thead class="rojo">
+							<tr>
+								<td colspan="3">Hola</td>
+							</tr>
+						</thead>
+						<tbody class="azul">
+							<tr>
+								<td rowspan="2">2 Filas</td>
+								<td>Estamos</td>
+								<td>En el body</td>
+							</tr>
+							<tr>
+								<td>Ahora</td>
+								<td>Tambien</td>
+							</tr>
+						</tbody>
+						<tfoot class="rojo">
+							<tr>
+								<td>Esta es la</td>
+								<td>Ultima</td>
+								<td>Fila</td>
+							</tr>
+						</tfoot>
+					</table>
+				</p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<p>Tabla 7. Espacio entre celdas.</p>
+				<p>
+					<table border="1" style="margin: 0 auto;">
+						<tr>
+							<td colspan="3">Titulo</td>
+							<td>A</td>
+							<td>B</td>
+						</tr>
+						<tr>
+							<td rowspan="3">C</td>
+							<td>D</td>
+							<td>E</td>
+							<td>F</td>
+							<td>G</td>
+						</tr>
+						<tr>
+							<td>H</td>
+							<td colspan="2">I</td>
+							<td rowspan="2">J</td>
+						</tr>
+						<tr>
+							<td>K</td>
+							<td>L</td>
+							<td>M</td>
+						</tr>
+						<tr>
+							<td>N</td>
+							<td colspan="4">O</td>
+						</tr>
+					</table>
+				</p>
+			</td>
+			<td>
+				<p>Tabla8. Restaurantes</p>
+				<p>
+					<table border="1" style="margin: 0 auto;">
+						<tr>
+							<td colspan="5" style="text-aling: center;">Restaurantes en Pamplona</td>
+						</tr>
+						<tr>
+							<td><img src="imagenes/imagenRestaurante.jpg" alt="" height="100" width="150"></td>
+							<td>
+								<ul>
+									<li>La Nuez Restaurante</li>
+									<li>Alhambra</li>
+									<li>Tabla Tomasa Restaurante</li>
+								</ul>
+							</td>
+							<td>
+								<ol>
+									<li>Enekorri</li>
+									<li>Asador Olaverri</li>
+									<li>La Mar Salada</li>
+								</ol>
+							</td>
+							<td><a href="#">Ir a la Página</a></td>
+						</tr>
+					</table>
+				</p>
+			</td>
+		</tr>
+	</table>
+
+</body>
+</html>

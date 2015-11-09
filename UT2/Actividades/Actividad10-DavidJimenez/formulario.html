@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formularios</title>
+</head>
+<body>
+
+	<div>
+		<h3>Formaulario muy sencillo</h3>
+		<p>En XML las etiquetas deben cumplir las reglas de XML...</p>
+		<form action="#" method="GET">
+			<span>Escribe tu nombre: </span>
+			<input type="text" name="nombre">
+			<br />
+			<input type="submit" value="Enviar">
+		</form>
+	</div>
+	<div>
+		<h3>Formulario con etiquetas legend, fieldset, submit y reset</h3>
+		<form action="#" method="GET">
+			<fieldset>
+				<legend>Datos de Usuario</legend>
+				<span>Nombre: </span>
+				<input type="text" name="nombre">
+				<span>Direccion: </span>
+				<input type="text" name="direccion">
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Borrar">
+			</fieldset>			
+		</form>
+	</div>
+	<div>
+		<h3>Formulario con etiquetas fieldset, legend, label, select, input type="radio", input type="checkbox", textarea, input type="submit, input type="reset"</h3>
+		<form action="#" method="GET">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<p>
+					<span>Nombre: </span>
+					<input type="text" name="nombre">
+					<span>Edad: </span>
+					<input type="number" name="edad">
+					<span>Sexo: </span>
+						<span>Hombre: </span>
+						<input type="radio" name="genero" value="hombre"> 
+						<span>mujer</span>
+						<input type="radio" name="genero" value="mujer">
+				</p>
+				<br />
+				<p>
+					<span>Estudios</span>
+					<select>
+						<option value="primaria">Primaria</option>
+						<option value="secundaria">Secundaria</option>
+						<option value="Bachillerato">Bachillerato</option>
+						<option value="Módulo grado medio">Módulo grado medio</option>
+						<option value="Módulo grado superior">Módulo grado superior</option>
+						<option value="Diplomatura">Diplomatura</option>
+						<option value="Licenciatura">Licenciatura</option>
+						<option value="Doctorado">Doctorado</option>
+					</select>
+				</p>
+				<br />
+				<p>
+					<span>Otros Datos</span>
+					<input type="checkbox" name="familia" value="familia"> Familia numerosa
+					<input type="checkbox" name="beca" value="Beca"> Beca
+				</p>
+				
+				<br />
+				<textarea name="Comentarios" cols="30" rows="10">Pon aqui sus comentarios</textarea>
+
+				<p style="text-align: center;">
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Restaurar">
+				</p>
+			</fieldset>			
+		</form>
+	</div>
+	<div>
+		<h3>Utilizamos la etiqueta optgroup y el atributo multiple="multiple, en la etiqueta select</h3>
+		<form action="#" method="GET">
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<p>
+					<span>Nombre: </span>
+					<input type="text" name="nombre">
+					<span>Edad: </span>
+					<input type="number" name="edad">
+					<span>Sexo: </span>
+						<span>Hombre: </span>
+						<input type="radio" name="genero" value="hombre"> 
+						<span>mujer</span>
+						<input type="radio" name="genero" value="mujer">
+				</p>
+				<br />
+				<p>
+					<span>Localidad</span>
+					<select>
+						<optgroup label="Comarca de Pamplone">
+							<option value="Pamplona">Pamplona</option>
+							<option value="Burlada">Burlada</option>
+							<option value="Barañain">Barañain</option>
+						</optgroup>
+						<optgroup label="Aralar-Urbasa">
+							<option value="Lekunberri">Lekunberri</option>
+							<option value="Lizaso">Lizaso</option>
+							<option value="Etxalar">Etxalar</option>
+						</optgroup>
+						<optgroup label="Pirineo Atlántico">
+							<option value="Bera">Bera</option>
+							<option value="Elizondo">Elizondo</option>
+							<option value="Zugarramurdi">Zugarramurdi</option>
+						</optgroup>
+						<optgroup label="Pirineo Oriental">
+							<option value="Ochagavia">Ochagavia</option>
+							<option value="Roncal">Roncal</option>
+							<option value="Roncesvalles">Roncesvalles</option>
+						</optgroup>
+						<optgroup label="Zona Media">
+							<option value="Mendigorria">Mendigorria</option>
+							<option value="Olite">Olite</option>
+							<option value="Pitillas">Pitillas</option>
+						</optgroup>
+					</select>
+				</p>
+				<p>
+					<span>Idiomas: </span>
+					<select multiple="multiple">
+						<option value="Inglés">Inglés</option>
+						<option value="Francés">Francés</option>
+						<option value="Alemán">Alemán</option>
+						<option value="Italiano">Italiano</option>
+					</select>
+				</p>
+				<br />
+				<p>
+					<span>Otros Datos</span>
+					<input type="checkbox" name="familia" value="familia"> Familia numerosa
+					<input type="checkbox" name="beca" value="Beca"> Beca
+				</p>
+				
+				<br />
+				<textarea name="Comentarios" cols="30" rows="10">Pon aqui sus comentarios</textarea>
+
+				<p style="text-align: center;">
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Restaurar">
+				</p>
+			</fieldset>			
+		</form>
+	</div>
+	<div>
+		<h3>Formulario con etiqueta input type="file" y una imagen como botón de enviar (input type="image"</h3>
+		<p>En XML las etiquetas deben cumplir las reglas de XML...</p>
+		<form action="#" method="GET">
+			<span>seleccione un fichero: </span>
+			<input type="file" name="fichero">
+			<br />
+			<input type="image" src="http://www.w3schools.com/tags/img_submit.gif" alt="Submit">
+		</form>
+	</div>
+	<div>
+		<h3>Información sobre el producto</h3>
+		<form action="#" method="GET">
+			<fieldset>
+				<legend>Datos básicos</legend>
+				<p>
+					<span>Nombre: </span>
+					<br />
+					<input type="text" name="nombre">
+				</p>
+				<p>
+					<span>Descripción: </span>
+					<br />
+					<textarea name="descripcion" cols="30" rows="10"></textarea>
+				</p>
+				<p>
+					<span>Foto</span>
+					<input type="file" name="foto">
+				</p>
+				<P>
+					<input type="checkbox" name="contador" value="contador">
+					<span>Añadir contador de visitas</span>
+				</P>
+			</fieldset>	
+			<fieldset>
+				<legend>Datos económicos</legend>
+				<p>
+					<span>Precio</span>
+					<input type="text" name="precio">
+					<span>€</span>
+					<span>Impuestos</span>
+					<select>
+						<option value="4">4%</option>
+						<option value="7">7%</option>
+						<option value="16">16%</option>
+						<option value="25">25%</option>
+					</select>
+				</p>
+				<p>
+					<span>Promoción</span>
+					<br />
+					<input type="radio" name="promocion" value="ninguno">
+					<span>Ninguno</span>
+					<br />
+					<input type="radio" name="promocion" value="Transporte Gratuito">
+					<span>Transporte Gratuito</span>
+					<br />
+					<input type="radio" name="promocion" value="Descuento">
+					<span>Descuento 5%</span>
+				</p>
+			</fieldset>
+			<p style="text-align: center;">
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Restaurar">
+				</p>		
+		</form>
+	</div>
+</body>
+</html>

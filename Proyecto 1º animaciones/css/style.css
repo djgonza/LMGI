@@ -105,8 +105,19 @@ ul {margin: 0;}
     	border-radius: 3em 0 0 3em;
 	}
 
-	#contentComics {
+	.article {
 
+	}
+
+	.article iframe {
+		position: absolute;
+		top: 5%;
+		left: 4%;
+		animation: trailer 5s forwards;
+		animation-delay: 10s;
+		height: 0%;
+		width: 0%;
+		border-radius: 5em;
 	}
 
 
@@ -235,6 +246,19 @@ ul {margin: 0;}
     }
 }
 
+
+@keyframes trailer {
+	from{ 
+		height: 5%;
+		width: 5%;
+		border-radius: 5em;
+	}
+    to { 
+		height: 25%;
+		width: 25%;
+		border-radius: 0em;
+    }
+}
 
 
 

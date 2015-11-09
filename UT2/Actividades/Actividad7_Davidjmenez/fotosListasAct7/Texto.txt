@@ -1,0 +1,26 @@
+ citasnormales.html
+
+ Consejos - Pasos para sacar o renovar el DNI electrónico y Pasaporte</h2>
+ Averigua si en tu ciudad o municipio hay teléfono de cita previa para el DNI
+ Si no tienes un teléfono de cita previa, averigua los centros o comisarías que expiden el DNI en tu ciudad o municipio.
+ Prepara el día antes todo lo que falta para sacar por primera vez el DNI o renovar el DNI o Pasaporte
+ Una vez elegida la zona, intenta averiguar si las colas son grandes.
+ 
+ 
+ otrascitas.html
+  CASOS ESPECIALES
+  
+  En caso de cambio de domicilio, respecto del que figure en el Documento anterior, 
+  certificado o volante de empadronamiento del Ayuntamiento donde el solicitante tenga su domicilio, 
+  expedido con una antelación máxima de tres meses a la fecha de la solicitud del Documento Nacional de Identidad. 
+  Estos documentos no serán necesarios si el interesado autoriza, en el momento de la tramitación, 
+  al equipo de expedición a consultar los datos del domicilio mediante acceso al Sistema de Verificación de Datos de residencia.
+  Si el alta en el Padrón Municipal se ha realizado <strong>en los dos últimos meses,
+  es necesario aportar el certificado o volante de empadronamiento a que se hace referencia.
+  En caso de variación de datos de filiación,Certificado del Registro Civil (expedido con una antelación máxima de seis meses a la fecha de la solicitud del Documento Nacional de Identidad).
+  Cuando el titular del DNI <strong>sea menor de 14 años o incapaz se llevará a cabo en presencia de la persona que tenga encomendada la patria potestad o tutela, o persona apoderada por estas últimas.
+  Consultar enlace oficial de la página anterior
+  Nota interesante: Algoritmo para hallar la letra del DNI
+  Haz la división entera del número del D.N.I. entre 23.
+  A cada resto se le asocia una letra según la tabla siguiente.
+ 
