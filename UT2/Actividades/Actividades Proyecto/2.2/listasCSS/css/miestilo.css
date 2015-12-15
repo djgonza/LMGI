@@ -1,0 +1,30 @@
+body {
+    background-color: Aqua;
+}
+
+h2 {
+    text-align: center;
+}
+
+body p {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+body ul {
+    list-style-type: circle;
+    list-style-image: url("../img/2.gif");
+}
+
+body li a {
+    background-color: #FFFF85;
+}
+
+body li a:link {
+    background-color: #B2FF99;
+}
+
+body ol li ol {
+    list-style-type: upper-roman;
+}

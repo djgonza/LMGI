@@ -1,0 +1,257 @@
+html { 
+
+    /*sin  margenes ni rellenos */
+    margin: 0;
+    padding: 0;
+}  
+body {
+    /*
+    Separación entre líneas 1.5 em
+    Alineación de texto centrado
+    color de texto gris oscuro
+    color de fondo gris oscuro
+    Tipos de letra indicar 3 de la familia de sans-serif;*/
+    
+    text-align: center;
+    color: #ccc;
+    background-color: #ccc;
+
+}
+h1{
+    /*Alineación de texto centrado
+    color de texto gris oscuro
+    padding superior de 15px;
+    padding-top:15px;
+    Otro tipos de fuente de la familia de sans-serif */
+    text-align: center;
+    color: red;
+    padding-top: 15px;
+
+}
+#logo{
+    /*
+    Posicionamiento fijo 
+    separación superior y derecha de 10px
+    */
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+#contenedor{
+    /*anchura 960px (ntenta hacer el cálculo en %)
+    color de fondo #00a0b0;
+    margen superior e inferior de 20px y en la izq y la dcha decide el navegador
+    borde grosor de 10px con color rojo oscuro y línea sólida
+    */
+    width: 960px;
+    background-color: #00a0b0;
+    margin: 20px auto;
+    border: 10px red solid;
+    padding: 1em;
+}
+#principal {    
+    /*
+    un relleno de 15px
+    altura mínima del elemento principal de 400px
+    min-height: 400px; 
+    color de fondo verde */
+    padding: 15px;
+    min-height: 400px;
+    background-color: green;
+}
+#cabecera {
+    /*
+    color de fondo #B2DD32
+    altura de 120px
+    margen superior e inferior de 0 y de izq a dcha decide el navegador
+    */
+    background-color: #B2DD32;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+#pie {   
+    /*
+    margen superior e inferior de 0 y de izq a dcha decide el navegador
+    el borde superior con linea sólida de 3px y color#B51032
+    */  
+    margin: 0 auto;
+    border-top: 3px solid #B51032;
+}
+#cabecera h1{
+    display: inline-block;
+}
+#pie p {
+    /*alineación del texto centrado
+    fuente de tamaño pequeño
+    */
+    text-align: center;
+    font-size: 0.7em;
+}
+
+#izda {
+    /*
+    anchura 300px (Después intenta con %)
+    altura 100px
+    estilo del borde solido amarillo y de 5px
+    */
+    width: 300px;
+    height: 100px;
+    border: 5px solid yellow;
+}
+
+#izda a:link { 
+    /*
+      fuente en negrita
+      sin decoracion y color #B7A5DF;
+    */
+    color: #B7A5DF;
+}
+#izda a:visited { 
+    /*
+     fuente en negrita
+    sin decoracion*/
+
+}
+#izda  a:hover, a:active { 
+    /*subrayado y con color  #9685BA;*/
+    text-decoration: underline;
+    color: #9685BA;
+}
+#izda ul {     
+    /*sin viñetas y el texto alineado ala izq*/
+    text-align: left;
+}
+#dcha {
+    /*
+    color de fondo negro
+    anchura de 400px
+    altura de 170px
+    la línea del borde solida de color verde y de 5px
+    flota a la dcha
+    */
+    background-color: #000;
+    width: 400px;
+    height: 170px;
+    border: 5px solid green;
+    float: right;
+}
+
+
+p.posic{
+    /*posicion relativa
+    Separación por la izq de 200px y por arriba de 200px */
+    left: 200px;
+    top: 200px;
+}
+
+p.planetas{
+    /*se deben mostrar en línea
+    color #7FFF00, espacio entre las palabras de 5px
+    el tipo de furnte Courier con un tamaño de 20px y fuente en cursiva
+    */
+    display: inline;
+    color: #7FFF00;
+    font-size: 20px;
+
+}
+#menu1 {
+    /*
+    color de fondo blanco
+    un borde solido de color wheat y 1px de anchura
+    anchura del 100%
+    */
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid wheat;
+    width: 100%;
+  }
+#menu1 a {
+    /* color #B51032 y sin decoración
+    */
+    color: #B51032;
+    text-decoration: none;
+} 
+#menu1 a:hover {
+   /*color negro*/
+   color: #000;
+}
+#menu1 ul {   
+    /*sin ningún tipo de viñeta y el texto alineado a la izq
+    */
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+    width: 100%;
+}
+#menu1 ul li {
+    /*
+    se deben mostrar en línea
+    borde derecho de color wheat de 5px y sólido
+    relleno derecho e izquierdo el doble de su tamaño*/
+    display: inline;
+    border-right: 5px solid wheat;
+    padding: 0 2em;
+    float: left;
+
+}
+#galeria
+{
+    /*centrar el div  margin:0 auto 0 auto;(pon la propiedad abreviada)
+    anchura de 425px
+    rompe la flotación 
+    el borde de color #0000ff de 3px de grosor y sólido*/
+    margin:0 auto;
+    width: 425px;
+    border: 3px #0000ff solid;
+    clear: both;
+}
+#galeria img 
+{
+    /*
+       se deben mostrar en línea
+    y un margen en todos los lados de 3px
+    */
+    display: inline;
+    margin: 3px;
+}
+
+#conten
+{
+    /*Si comentamos position:relative 
+    deja de ser el contenedor padre de los 2 div con position absolute */
+
+    position:relative;
+    top:50px;
+    width: 350px;
+    height:200px;
+    background-color: #B2DD32;
+}
+#absol1
+{
+    /*Con respecto al elemento padre que no tenga una posicion estática (la predeterminada). Si el contenedor no 
+    se encuentra, será el bloque html/body. A veces detectar el elemento padre se complica y a veces 
+    se suele crear un contenedor <div> para controlar el posicionamiento.*/
+    
+    position: absolute; 
+    left:50px;
+    top:50px;
+    z-index:1;
+    background: #FF99FF;
+    border:thin solid #000000;
+    width: 250px;
+    height:100px;
+}
+
+#absol2
+{
+    position: absolute; 
+    left:50px;
+    top:50px;
+    z-index:2;
+    background: #FF66FF;
+    border:thin solid #000000;
+    width: 200px;
+    height:50px;
+
+}

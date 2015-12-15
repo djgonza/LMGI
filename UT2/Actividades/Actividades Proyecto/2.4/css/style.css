@@ -1,0 +1,23 @@
+html, body, p {
+			margin: 25px;
+			padding: 25px;
+		}
+
+		html {
+			border: 10px solid #000;
+			background-color: coral;
+		}
+
+		body {
+			border: 10px solid blue;
+			background-color: #99ccff;
+		}
+
+		p {
+			border: 10px solid green;
+			background-color: yellow;
+		}
+
+		h1 {
+			text-align: center;
+		}

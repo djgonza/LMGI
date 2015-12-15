@@ -1,0 +1,51 @@
+/*html{margin:0;
+     padding:0;} 
+//Solución limitada para eliminar márgenes y rellenos
+//anchuras y alturas en tamaños relativos %
+//tambie´n ppodemos utilizar max-  o min- */
+body{
+    background-color:khaki;
+}
+#contenedor {
+    background-color:darkseagreen;
+    width:80%;           
+    margin: 0 auto;
+    border:2px #333 solid;
+    box-sizing: border-box;  //no suma el border 
+    //Soportado en  Firefox, WebKit, Opera and IE8+ 
+    -moz-box-sizing: border-box;  
+    -webkit-box-sizing: border-box;
+}
+#cabecera {
+    background-color: antiquewhite;
+    text-align: center;
+    border:1px #333 solid;
+    box-sizing: border-box;
+}
+#menu {
+    float: left;
+    width: 20%;
+    border:1px #333 solid;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#contenido {
+    float: left;
+    width:80%;
+    max-width: 85%;
+    border:1px #333 solid;
+    box-sizing: border-box;
+}
+
+#pie {
+    clear: both;
+    border:1px #333 solid;
+    text-align: center;
+} 
+table  {margin:0 auto;
+        border:1px solid #000000;
+}
+td{
+    border:1px solid #000000;
+
+}
