@@ -3,6 +3,7 @@ table {
     width: 100%;
     empty-cells:hide;
 	border-collapse:collapse; 
+	border: 2px solid #ccc;
 }
 
 table tr {
@@ -14,6 +15,21 @@ table tr:nth-child(even) {
     background-color: #f1f1f1;
 }
 
+table tr:nth-child(1) {
+    border-bottom: 2px solid #ccc;
+}
+
 table tr td, table tr th {
-	padding: 8px;
+	padding: 0.5em;
+}
+
+table tr td:hover {
+	background-color: aliceblue;
+	border: 1px solid #ccc;
+}
+
+table tr td {
+	border-left: 2px solid #ccc;
+	border-right: 2px solid #ccc;
+	padding-left: 1em;
 }

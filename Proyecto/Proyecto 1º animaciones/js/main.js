@@ -13,11 +13,11 @@ $(document).ready(function() {
 	}
 
 	function ocultarFondoSection () {
-		$("#content").css("animation", "ocultarFondoSection 3s forwards");
+		$("#content").css("animation", "ocultarFondoSection 1s forwards");
 	}
 
 	function mostrarFondoSection () {
-		$("#content").css("animation", "mostrarFondoSection 5s forwards");
+		$("#content").css("animation", "mostrarFondoSection 1s forwards");
 	}
 
 	function clickIcono (nombreSeccion) {
@@ -46,11 +46,11 @@ $(document).ready(function() {
 
 	//inicia la animacion de la barra de navegacion
 	function navIconos () {
-		$("#iconoComics").css("animation", "navIconoComic 3s forwards");
-		$("#iconoContacto").css("animation", "navIconoContacto 3s forwards");
-		$("#iconoPeliculas").css("animation", "navIconoPeliculas 3s forwards");
-		$("#iconoGaleria").css("animation", "navIconoGaleria 3s forwards");
-		$("#iconoHistoria").css("animation", "navIconoHistoria 3s forwards");
+		$("#iconoComics").css("animation", "navIconoComic 2s forwards");
+		$("#iconoContacto").css("animation", "navIconoContacto 2s forwards");
+		$("#iconoPeliculas").css("animation", "navIconoPeliculas 2s forwards");
+		$("#iconoGaleria").css("animation", "navIconoGaleria 2s forwards");
+		$("#iconoHistoria").css("animation", "navIconoHistoria 2s forwards");
 
 		$("#navegacion").css("animation", "navegacion 3s forwards");
 
