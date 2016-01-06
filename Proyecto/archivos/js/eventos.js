@@ -1,19 +1,6 @@
 $(document).ready(function() {
 
 	function navegar (boton, icono, rotacion, direccion) {
-		
-		if(!boton === $("#boton_peliculas")){
-			$("#boton_peliculas").find("i").text("video_library").css("transform", "rotate(0deg)");
-		}
-		if(!boton === $("#boton_comics")){
-			$("#boton_comics").find("i").text("history").css("transform", "rotate(0deg)");
-		}
-		if(!boton === $("#boton_contacto")){
-			$("#boton_contacto").find("i").text("account_circle").css("transform", "rotate(0deg)");
-		}
-		if(!boton === $("#boton_historia")){
-			$("#boton_historia").find("i").text("turned_in").css("transform", "rotate(0deg)");
-		}
 
 		if(boton.find("i").text() == "play_arrow"){
 			$("#main").css("animation", direccion+"-centro 1s forwards");
@@ -25,20 +12,58 @@ $(document).ready(function() {
 
 	}
 
+	//click
 	$("#boton_peliculas").click(function(){
 		navegar ($(this), "video_library", 90, "arriba");
 	});
 
 	$("#boton_comics").click(function(){
-		navegar ($(this), "history", 0, "izquierda");
+		navegar ($(this), "library_music", 0, "izquierda");
 	});
 
-	$("#boton_contacto").click(function(){
-		navegar ($(this), "account_circle", 180, "derecha");
+	$("#boton_musica").click(function(){
+		navegar ($(this), "donut_small", 180, "derecha");
 	});
 
-	$("#boton_historia").click(function(){
-		navegar ($(this), "turned_in", 270, "abajo");
+	$("#boton_cuestionario").click(function(){
+		navegar ($(this), "feedback", 270, "abajo");
 	});
+
+	//hover
+	$("#boton_peliculas").hover(
+		function(){
+			$("#boton_peliculas_nombre").css("visibility", "visible");
+		}, 
+		function () {
+			$("#boton_peliculas_nombre").css("visibility", "hidden");
+		}
+	);
+
+	$("#boton_comics").hover(
+		function(){
+			$("#boton_comics_nombre").css("visibility", "visible");
+		}, 
+		function () {
+			$("#boton_comics_nombre").css("visibility", "hidden");
+		}
+	);
+
+	$("#boton_musica").hover(
+		function(){
+			$("#boton_musica_nombre").css("visibility", "visible");
+		}, 
+		function () {
+			$("#boton_musica_nombre").css("visibility", "hidden");
+		}
+	);
+
+	$("#boton_cuestionario").hover(
+		function(){
+			$("#boton_cuestionario_nombre").css("visibility", "visible");
+		}, 
+		function () {
+			$("#boton_cuestionario_nombre").css("visibility", "hidden");
+		}
+	);
 
 });
