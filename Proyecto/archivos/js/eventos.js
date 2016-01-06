@@ -18,11 +18,11 @@ $(document).ready(function() {
 	});
 
 	$("#boton_comics").click(function(){
-		navegar ($(this), "library_music", 0, "izquierda");
+		navegar ($(this), "donut_small", 180, "derecha");
 	});
 
 	$("#boton_musica").click(function(){
-		navegar ($(this), "donut_small", 180, "derecha");
+		navegar ($(this), "library_music", 0, "izquierda");
 	});
 
 	$("#boton_cuestionario").click(function(){
