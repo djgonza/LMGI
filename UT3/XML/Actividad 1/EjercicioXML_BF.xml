@@ -1,0 +1,73 @@
+﻿deportistas1.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<personajes>
+  <deportista>
+    <deporte>Atletismo</deporte>
+    <nombre>Usain Bolt</nombre>
+  </deportista>
+  <deportista>
+    <deporte>Natación</deporte>
+    <nombre>Michael Pelps</nombre>
+  </deportista>
+</personajes>
+
+
+peliculas2.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<pelicula>
+  <titulo>Con faldas y a lo loco</titulo>
+  <director>Billy Wilder</director>
+</pelicula>
+<pelicula>
+  <director>Leo McCarey</director>
+  <titulo>Sopa de ganso</titulo>
+</pelicula>
+<autor>profesor</autor>
+
+
+texto3.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<texto>
+  <Titulo>XML explicado a los niños</titulo>
+  <parrafo>El <abreviatura>XML</abreviatura>define cómo crear 
+  lenguajes de marcas.</parrafo>
+  <parrafo>Las marcas se añaden a un documento de texto 
+  para añadir información.</parrafo>
+  <http://>www.example.org</http://>
+</texto>
+
+
+geografia4.xml
+<geografia mundial>
+  <pais>
+    <pais>España</pais>
+    <continente>Europa</continente>
+    <capital nombre="Madrid"></capital>
+  </pais>
+</geografia mundial>
+
+
+programas5.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<programas>
+  <programa nombre="Firefox" licencia="GPL" licencia="MPL" />
+  <programa nombre="OpenOffice.org" licencia="LGPL" />
+  <programa nombre="Inkscape" licencia="GPL" />
+</programas>
+
+
+mundiales6.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<mundiales-de-futbol>
+  <mundial>
+    <pais="España" />
+    <1982 />
+  </mundial>
+</mundiales-de-futbol>
+
+
+transporte7.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<mediosDeTransporte>
+  <bicicleta velocidad="v<100km/h" />
+  <patinete velocidad maxima="50 km/h"
