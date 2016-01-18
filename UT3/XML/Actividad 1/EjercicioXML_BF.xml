@@ -1,5 +1,5 @@
-﻿deportistas1.xml
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--deportistas1.xml-->-->
 <personajes>
   <deportista>
     <deporte>Atletismo</deporte>
@@ -12,7 +12,7 @@
 </personajes>
 
 
-peliculas2.xml
+<!--peliculas2.xml-->-->
 <?xml version="1.0" encoding="UTF-8"?>
 <pelicula>
   <titulo>Con faldas y a lo loco</titulo>
@@ -25,11 +25,11 @@ peliculas2.xml
 <autor>profesor</autor>
 
 
-texto3.xml
+<!--texto3.xml-->-->
 <?xml version="1.0" encoding="UTF-8"?>
 <texto>
-  <Titulo>XML explicado a los niños</titulo>
-  <parrafo>El <abreviatura>XML</abreviatura>define cómo crear 
+  <Titulo>xml--> explicado a los niños</titulo>
+  <parrafo>El <abreviatura>xml--></abreviatura>define cómo crear 
   lenguajes de marcas.</parrafo>
   <parrafo>Las marcas se añaden a un documento de texto 
   para añadir información.</parrafo>
@@ -37,7 +37,7 @@ texto3.xml
 </texto>
 
 
-geografia4.xml
+<!--geografia4.xml-->
 <geografia mundial>
   <pais>
     <pais>España</pais>
@@ -47,7 +47,7 @@ geografia4.xml
 </geografia mundial>
 
 
-programas5.xml
+<!--programas5.xml-->
 <?xml version="1.0" encoding="UTF-8"?>
 <programas>
   <programa nombre="Firefox" licencia="GPL" licencia="MPL" />
@@ -56,7 +56,7 @@ programas5.xml
 </programas>
 
 
-mundiales6.xml
+<!--mundiales6.xml-->
 <?xml version="1.0" encoding="UTF-8"?>
 <mundiales-de-futbol>
   <mundial>
@@ -66,7 +66,7 @@ mundiales6.xml
 </mundiales-de-futbol>
 
 
-transporte7.xml
+<!--transporte7.xml-->
 <?xml version="1.0" encoding="UTF-8"?>
 <mediosDeTransporte>
   <bicicleta velocidad="v<100km/h" />

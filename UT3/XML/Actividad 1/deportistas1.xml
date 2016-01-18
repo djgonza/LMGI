@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personajes>
+  <deportista>
+    <deporte>Atletismo</deporte>
+    <nombre>Usain Bolt</nombre>
+  </deportista>
+  <deportista>
+    <deporte>Natación</deporte>
+    <nombre>Michael Pelps</nombre>
+  </deportista>
+</personajes>
