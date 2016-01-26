@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE dataroot SYSTEM "Vuelos.dtd">
+
+<dataroot>
+    <Vuelos>
+        <Num_Vuelos>IBE0002</Num_Vuelos>
+        <Origen>Barcelona</Origen>
+        <Destino>Madrid</Destino>
+        <Hora_Salida>1899-12-30T08:00:00</Hora_Salida>
+        <Distancia>621</Distancia>
+        <Tipo_Avion>3</Tipo_Avion>
+    </Vuelos>
+    <Vuelos>
+        <Num_Vuelos>IBE0005</Num_Vuelos>
+        <Origen>Alicante</Origen>
+        <Destino>Barcelona</Destino>
+        <Hora_Salida>1899-12-30T15:00:00</Hora_Salida>
+        <Distancia>515</Distancia>
+        <Tipo_Avion>2</Tipo_Avion>
+    </Vuelos>
+    <Vuelos>
+        <Num_Vuelos>IBE1249</Num_Vuelos>
+        <Origen>Sevilla</Origen>
+        <Destino>Barcelona</Destino>
+        <Hora_Salida>1899-12-30T13:15:00</Hora_Salida>
+        <Distancia>1046</Distancia>
+        <Tipo_Avion>2</Tipo_Avion>
+    </Vuelos>
+    <Vuelos>
+        <Num_Vuelos>IBE1450</Num_Vuelos>
+        <Origen>Barcelona</Origen>
+        <Destino>Roma</Destino>
+        <Hora_Salida>1899-12-30T17:00:00</Hora_Salida>
+        <Distancia>1466</Distancia>
+        <Tipo_Avion>1</Tipo_Avion>
+    </Vuelos>
+    <Vuelos>
+        <Num_Vuelos>IBE0004</Num_Vuelos>
+        <Origen>Londres</Origen>
+        <Destino>Madrid</Destino>
+        <Hora_Salida>1899-12-30T18:00:00</Hora_Salida>
+        <Distancia>3000</Distancia>
+        <Tipo_Avion>1</Tipo_Avion>
+    </Vuelos>
+</dataroot>

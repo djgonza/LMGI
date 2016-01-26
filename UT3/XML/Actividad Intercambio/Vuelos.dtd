@@ -1,0 +1,9 @@
+<!ELEMENT dataroot (Vuelos)*>
+<!ELEMENT Vuelos (Num_Vuelos, Origen, Destino, Hora_Salida, Distancia, Tipo_Avion)>
+<!ELEMENT Num_Vuelos (#PCDATA)>
+<!ELEMENT Origen (#PCDATA)>
+<!ELEMENT Destino (#PCDATA)>
+<!ELEMENT Hora_Salida (#PCDATA)>
+<!ELEMENT Distancia (#PCDATA)>
+<!ELEMENT Tipo_Avion (#PCDATA)>
+

@@ -1,0 +1,20 @@
+<!ELEMENT sociedad (socio)+>
+	<!ELEMENT socio (socio_iden,telefonoFijo?,telefonoMovil+,edad,fechaingreso,empadronado?)>
+		<!ELEMENT socio_iden (situacion?,nombre_socio,mail+)>
+		<!ATTLIST socio num ID #REQUIRED>
+			<!ELEMENT situacion (paro|trabajador)>
+			<!-- Meses que lleva en paro o Nombre de la empresa si es trabajador -->
+				<!ELEMENT paro (#PCDATA)>
+				<!ELEMENT trabajador (#PCDATA)>
+			<!ELEMENT nombre_socio (nombre,apellido)>
+				<!ELEMENT nombre (#PCDATA)>
+				<!ELEMENT apellido (#PCDATA)>
+				<!ATTLIST nombre_socio apodo NMTOKEN #REQUIRED>
+			<!ELEMENT mail (#PCDATA)>
+		<!ELEMENT telefonoFijo (#PCDATA)>
+		<!ELEMENT telefonoMovil (#PCDATA)>
+		<!ELEMENT edad (#PCDATA)>
+		<!ELEMENT fechaingreso (#PCDATA)>
+			<!ENTITY fechaIngreso "La fecha de ingreso es ">
+		<!ELEMENT empadronado EMPTY>
+			<!ATTLIST empadronado sit (si|no) #REQUIRED>

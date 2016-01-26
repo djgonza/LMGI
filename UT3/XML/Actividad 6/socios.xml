@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE sociedad SYSTEM "socios.dtd">
+
+<sociedad>
+    <socio num="U-01">
+    	<socio_iden>
+	        <situacion>
+	            <paro />
+	        </situacion>
+	        <nombre_socio apodo="chd">
+	            <nombre>
+	                Pepe
+	            </nombre>
+	            <apellido>
+	                Gomez
+	            </apellido>
+	        </nombre_socio>
+	        <mail>pepe@gmail.com</mail>
+	    </socio_iden>
+        <telefonoFijo>948523658</telefonoFijo>
+        <telefonoMovil>563259632</telefonoMovil>	
+        <edad>31</edad>
+        <fechaingreso>&fechaIngreso; 25/11/2000</fechaingreso>
+        <empadronado sit="si" />
+    </socio>
+    <socio num="U-02">
+    	<socio_iden>
+	        <situacion>
+	            <trabajador />
+	        </situacion>
+	        <nombre_socio apodo="jkl">
+	            <nombre>
+	                Sara
+	            </nombre>
+	            <apellido>
+	                Gomez
+	            </apellido>
+	        </nombre_socio>
+	        <mail>sara@gmail.com</mail>
+	    </socio_iden>
+        <telefonoMovil>654123456</telefonoMovil>	
+        <edad>54</edad>
+        <fechaingreso>&fechaIngreso; 25/11/1985</fechaingreso>
+        <empadronado sit="no" />
+    </socio>
+    <socio num="U-03">
+    	<socio_iden>
+	        <situacion>
+	            <trabajador />
+	        </situacion>
+	        <nombre_socio apodo="klo">
+	            <nombre>
+	                Manuel
+	            </nombre>
+	            <apellido>
+	                Gomez
+	            </apellido>
+	        </nombre_socio>
+	        <mail>manuel@gmail.com</mail>
+	    </socio_iden>
+        <telefonoMovil>654586586</telefonoMovil>	
+        <edad>24</edad>
+        <fechaingreso>&fechaIngreso; 25/11/1985</fechaingreso>
+        <empadronado sit="no" />
+    </socio>
+</sociedad>

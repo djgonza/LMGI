@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE db SYSTEM "db.dtd">
+
+<db>
+	<isbn></isbn>
+	<titulo></titulo>
+	<autor></autor>
+	<editor></editor>
+	<precio></precio>
+	<anio></anio>
+	<revisor></revisor>
+</db>
