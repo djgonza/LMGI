@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dataroot SYSTEM "librosdtd.dtd">   
+
+ 
+<dataroot >
+    <libro>
+        <isbn>970-26-0315-3</isbn>
+        <título>Sistemas Operativos modernos</título>
+        <autor>Andrew Taenebaum</autor>
+        <editor>Prenticd-Hall</editor>
+        <precio>45</precio>
+        <año>2003</año>
+        <revisor>Juan Carlos Moreno</revisor>
+    </libro>
+    <libro>
+        <isbn>1-55655-767-6</isbn>
+        <título>Fundamentos de las Bases de Datos</título>
+        <autor>Abraham Silbershcatz</autor>
+        <editor>McGraw-Hill</editor>
+        <precio>40</precio>
+        <año>2003</año>
+        <revisor>James Smith</revisor>
+    </libro>
+    <libro>
+        <isbn>978-84-7897-985-1</isbn>
+        <título>Fundamentos de Hardware</título>
+        <autor>Juan Carlos Moreno</autor>
+        <editor>RA-MA</editor>
+        <precio>39.9</precio>
+        <año>2010</año>
+        <revisor>Juan Serrano</revisor>
+    </libro>
+</dataroot>

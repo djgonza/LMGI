@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE agenda [
+    <!ELEMENT agenda (contactos*)>
+    <!ELEMENT contactos (contacto, direccion, telefono, fecha_nacimiento, email?)>
+    <!ELEMENT contacto (nombre, apellido)>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellido (#PCDATA)>
+     <!ELEMENT direccion (calle, provincia)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT telefono (#PCDATA)>
+     <!ELEMENT fecha_nacimiento (año, mes, día)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT mes (#PCDATA)>
+    <!ELEMENT día (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    
+   ]>
+<agenda >
+    <contactos>
+        <contacto>
+            <nombre>Lizar</nombre>
+            <apellido>Gorosti</apellido>
+        </contacto>
+        <direccion> 
+            <calle>Calle Mayor, 23 </calle>
+            <provincia>Navarra</provincia>
+        </direccion>
+        <telefono>948369658</telefono>
+        <fecha_nacimiento>
+            <año>1985</año>
+            <mes>03</mes>
+            <día>15</día>
+        </fecha_nacimiento>
+        <email>lizar.g@gmail.com</email>
+    </contactos>
+    <contactos>
+        <contacto>
+            <nombre>Aner</nombre>
+            <apellido>Montoya</apellido>
+        </contacto>
+        <direccion> 
+            <calle>Calle Fermin Tirapu </calle>
+            <provincia>Navarra</provincia>
+        </direccion>
+        <telefono>948598965</telefono>
+        <fecha_nacimiento>
+            <año>1945</año>
+            <mes>11</mes>
+            <día>05</día>
+        </fecha_nacimiento>
+        <email></email>
+    </contactos>
+    <contactos>
+        <contacto>
+            <nombre>Miren</nombre>
+            <apellido>Lizaso</apellido>
+        </contacto>
+        <direccion> 
+            <calle>Avenida Bayona, 45 </calle>
+            <provincia>Navarra</provincia>
+        </direccion>
+        <telefono>948878569</telefono>
+        <fecha_nacimiento>
+            <año>1990</año>
+            <mes>07</mes>
+            <día>09</día>
+        </fecha_nacimiento>
+        <email>mirentxu@hotmail.com</email>
+    </contactos>
+    
+</agenda>

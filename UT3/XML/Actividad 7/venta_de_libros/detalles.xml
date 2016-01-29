@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE detalles [
+   <!ELEMENT detalles (detalle*)>
+   <!ELEMENT detalle (numero_ISBN,cantidad)>
+  <!ELEMENT IDcliente (#PCDATA)>
+   <!ELEMENT numero_ISBN (#PCDATA)>
+   <!ELEMENT cantidad (#PCDATA)>
+   
+  <!ATTLIST detalle Idpe IDREF #REQUIRED>
+  <!ATTLIST Idpe SYSTEM "pedidos.xml">
+
+ ]>
+
+<detalles>
+    <detalle Idpe="p2">
+    
+        <numero_ISBN>1-55615-592-1</numero_ISBN>
+        <cantidad>5 </cantidad>
+    </detalle>
+    <detalle Idpe="p2">
+    
+        <numero_ISBN>1-55615-675-1</numero_ISBN>
+        <cantidad>9 </cantidad>
+    </detalle>
+    <detalle Idpe="p2">
+    
+        <numero_ISBN>1-55615-852-1</numero_ISBN>
+        <cantidad>6</cantidad>
+    </detalle>
+    <detalle Idpe="p2">
+    
+        <numero_ISBN>1-55615-948-X</numero_ISBN>
+        <cantidad>1 </cantidad>
+    </detalle>
+  
+
+</detalles>

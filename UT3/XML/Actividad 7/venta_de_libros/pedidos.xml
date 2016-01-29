@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE pedidos [
+   <!ELEMENT pedidos (pedido*)>
+   <!ELEMENT pedido (IDcliente,IDlibreria, fecha_pedido, descuento)>
+   <!ELEMENT IDcliente  (#PCDATA)>
+   <!ELEMENT IDlibreria  (#PCDATA)>
+   <!ELEMENT fecha_pedido (#PCDATA)>
+   <!ELEMENT descuento (#PCDATA)>
+   <!ATTLIST pedido Idpe ID #REQUIRED>
+   <!ATTLIST IDcliente  IDREF #REQUIRED>
+   <!ATTLIST IDlibreria IDREF #REQUIRED>
+ ]>
+
+<pedidos>
+    <pedido>
+        <IDpedido Idpe="p1" > </IDpedido>
+        <IDcliente Idcli="p1" ></IDcliente>
+        <IDlibreria Idli="p1" />
+        <fecha_pedido>01/07/2010</fecha_pedido>
+        <descuento>5</descuento>
+
+    </pedido>
+
+</pedidos>

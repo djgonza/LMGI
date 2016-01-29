@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE librerias [
+   <!ELEMENT librerias (libreria*)>
+   <!ELEMENT libreria (IDlibreria, nombre, direccion, ciudad, telefono)>
+   <!ELEMENT IDlibreria  EMPTY>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT direccion (#PCDATA)>
+   <!ELEMENT ciudad (#PCDATA)>
+   <!ELEMENT telefono (#PCDATA)>
+   <!ATTLIST IDlibreria Idli ID #REQUIRED>
+ ]>
+<librerias >
+    <libreria>
+        <IDlibreria Idli="l1" />
+        <nombre>Madison Books</nombre>
+        <direccion>8006-5 Madisor</direccion>
+        <ciudad>Madison</ciudad>
+        <telefono>(205)772-9250</telefono>
+       
+    </libreria>
+    <libreria>
+        <IDlibreria Idli="l2" />
+        <nombre>Cook Company</nombre>
+        <direccion>415 West</direccion>
+        <ciudad>Anchorage</ciudad>
+        <telefono>(907)258-548</telefono>
+       
+    </libreria>
+</librerias>

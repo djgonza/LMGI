@@ -1,0 +1,10 @@
+<!ELEMENT dataroot (libro*)>
+    <!ELEMENT libro (isbn, título, autor, editor, precio, año, revisor)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT título (#PCDATA)>
+    <!ELEMENT autor (#PCDATA)>
+    <!ELEMENT editor (#PCDATA)>
+    <!ELEMENT precio (#PCDATA)>
+    <!ELEMENT año (#PCDATA)>
+    <!ELEMENT revisor (#PCDATA)>
+

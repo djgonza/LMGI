@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <!DOCTYPE clientes [
+   <!ELEMENT clientes (cliente*)>
+   <!ELEMENT cliente (IDcliente,apellidos, nombre, direccion, telefono)>
+   <!ELEMENT IDcliente  EMPTY>
+    <!ELEMENT apellidos (#PCDATA)>
+   <!ELEMENT nombre (#PCDATA)>
+   <!ELEMENT direccion (#PCDATA)>
+  <!ELEMENT telefono (#PCDATA)>
+   <!ATTLIST IDcliente Idcli ID #REQUIRED>
+ ]>
+<clientes >
+    <cliente>
+        <IDcliente Idcli="c1" />
+        <apellidos>Davolio</apellidos>
+        <nombre>Nacy</nombre>
+        <direccion>507-20th Ave. E.</direccion>
+        <telefono>(206)555-9857</telefono>
+    </cliente>
+    <cliente>
+        <IDcliente Idcli="c2" />
+        <apellidos>Fuller</apellidos>
+        <nombre>Andrew</nombre>
+        <direccion>908 W. Capital Way</direccion>
+        <telefono>(206)555-94821</telefono>
+    </cliente>
+</clientes>
