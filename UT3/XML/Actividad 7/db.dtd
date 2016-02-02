@@ -1,0 +1,31 @@
+<!ELEMENT clientes (cliente*)>
+	<!ELEMENT cliente (apellidos, nombre, direccion, telefono)>
+		<!ATTLIST IDcliente cliente ID #REQUIRED>
+		<!ELEMENT apellidos (#PCDATA)>
+
+<!ELEMENT librerias (libreria*)>
+	<!ELEMENT libreria (nombre, direccion, ciudad, telefono)>
+		<!ATTLIST IDlibreria libreria ID #REQUIRED>
+		<!ELEMENT ciudad (#PCDATA)>
+
+<!ELEMENT pedidos (pedido*)>
+	<!ELEMENT pedido (fecha_pedido, descuento)>
+		<!ATTLIST IDpedido pedido ID #REQUIRED>
+		<!ATTLIST IDcliente pedido IDREF #REQUIRED>
+		<!ATTLIST IDlibreria pedido IDREF #REQUIRED>
+		<!ELEMENT fecha_pedido (#PCDATA)>
+		<!ELEMENT descuento (#PCDATA)>
+	
+<!ELEMENT detalles (detalle*)>
+	<!ELEMENT detalle (numero_ISBN, cantidad)>
+		<!ATTLIST IDpedido pedido detalle #REQUIRED>
+		<!ELEMENT numero_ISBN (#PCDATA)>
+		<!ELEMENT cantidad (#PCDATA)>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+
+
+	

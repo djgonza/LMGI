@@ -15,6 +15,5 @@
 		<!ELEMENT telefonoMovil (#PCDATA)>
 		<!ELEMENT edad (#PCDATA)>
 		<!ELEMENT fechaingreso (#PCDATA)>
-			<!ENTITY fechaIngreso "La fecha de ingreso es ">
 		<!ELEMENT empadronado EMPTY>
 			<!ATTLIST empadronado sit (si|no) #REQUIRED>
