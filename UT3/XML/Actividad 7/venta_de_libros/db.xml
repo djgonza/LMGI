@@ -49,19 +49,19 @@
 	</pedidos>
 
 <detalles>
-	<detalle Idpedido="p2">
+	<detalle IDpedido="p2">
 		<numero_ISBN>1-55615-592-1</numero_ISBN>
 		<cantidad>5</cantidad>
 	</detalle>
-	<detalle Idpedido="p2">
+	<detalle IDpedido="p2">
 		<numero_ISBN>1-55615-675-1</numero_ISBN>
 		<cantidad>9</cantidad>
 	</detalle>
-	<detalle Idpedido="p2">
+	<detalle IDpedido="p2">
 		<numero_ISBN>1-55615-852-1</numero_ISBN>
 		<cantidad>6</cantidad>
 	</detalle>
-	<detalle Idpedido="p2">
+	<detalle IDpedido="p2">
 		<numero_ISBN>1-55615-948-X</numero_ISBN>
 		<cantidad>1</cantidad>
 	</detalle>
