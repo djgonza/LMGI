@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<revista
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='revistaSEN.xsd'>
+    <editor>Nombre</editor>
+    <fechapublicacion>1998-12-12</fechapublicacion>
+    <articulo>
+        <autor>Nombre</autor>
+        <titulo>Nombre</titulo>
+        <numeropalabras>25</numeropalabras>
+    </articulo>
+
+</revista>

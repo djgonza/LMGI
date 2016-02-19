@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rev:revista
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xmlns:rev='http://www.editorial.lmgi.com/'
+    xsi:schemaLocation='http://www.editorial.lmgi.com/ resitaCEN.xsd'>
+    <rev:editor>Nombre</rev:editor>
+    <rev:fechapublicacion>1945-12-12</rev:fechapublicacion>
+    <rev:articulo>
+        <rev:autor>Nombre</rev:autor>
+        <rev:titulo>Nombre</rev:titulo>
+        <rev:numeropalabras>25</rev:numeropalabras>
+    </rev:articulo>
+
+</rev:revista>
