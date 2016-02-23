@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<revista
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='revista.xsd' >
+    
+    <editor>
+        <nombre>Manolo</nombre>
+        <apellido>Gomez</apellido>
+        <telefono>64587788</telefono>
+    </editor>
+    <fechapublicacion>2005-03-03</fechapublicacion>
+    <articulo>
+        <autor>
+            <nombre>Gorka</nombre>
+            <apellido>Van Gohg</apellido>
+            <telefono>6544112</telefono>
+        </autor>
+        <titulo>La cofradia</titulo>
+        <numeropalabras>548</numeropalabras>
+    </articulo>
+    <articulo>
+        <autor>
+            <nombre>Leire</nombre>
+            <apellido>Eslava</apellido>
+            <telefono>698542147</telefono>
+        </autor>
+        <titulo>La isla</titulo>
+        <numeropalabras>541</numeropalabras>
+    </articulo>
+    <articulo>
+        <autor>
+            <nombre>Pepe</nombre>
+            <apellido>Perez</apellido>
+            <telefono>652321477</telefono>
+        </autor>
+        <titulo>La iliada</titulo>
+        <numeropalabras>1000</numeropalabras>
+    </articulo>
+
+</revista>

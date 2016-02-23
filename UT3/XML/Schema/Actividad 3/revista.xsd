@@ -9,15 +9,15 @@ and open the template in the editor.
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
     
-    <xs:element name="datospersonales">
-        <xs:complexType>
-            <xs:sequence>
-                <xs:element name="nombre" type="xs:string"/>
-                <xs:element name="apellido" type="xs:string"/>
-                <xs:element name="telefono" type="xs:integer"/>
-            </xs:sequence>
-        </xs:complexType>
-    </xs:element>
+    
+    <xs:complexType name="datospersonales">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="apellido" type="xs:string"/>
+            <xs:element name="telefono" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
     
     <xs:element name="revista">
         <xs:complexType>
@@ -34,6 +34,7 @@ and open the template in the editor.
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <xs:attribute name="numref" type="xs:integer" />
         </xs:complexType>
     </xs:element>
 </xs:schema>
