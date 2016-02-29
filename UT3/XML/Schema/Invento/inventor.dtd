@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!ELEMENT inventor (pais|fechanacimi|historia)+>
+<!ATTLIST inventor nombre CDATA #IMPLIED invento CDATA #IMPLIED>
+
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT fechanacimi (#PCDATA)>
+<!ELEMENT historia (#PCDATA)>
+<!ATTLIST historia filas CDATA #IMPLIED>
