@@ -1,9 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<!ELEMENT inventor (pais|fechanacimi|historia)+>
-<!ATTLIST inventor nombre CDATA #IMPLIED invento CDATA #IMPLIED>
+<!ELEMENT inventores (inventor)*>
+<!ELEMENT inventor (pais|fechanacimi|historia|archivado|patentado)+>
+    <!ATTLIST inventor nombre CDATA #IMPLIED invento CDATA #IMPLIED>
 
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT fechanacimi (#PCDATA)>
 <!ELEMENT historia (#PCDATA)>
-<!ATTLIST historia filas CDATA #IMPLIED>
+    <!ATTLIST historia filas CDATA #IMPLIED>
+<!ELEMENT archivado (#PCDATA|bibliotecario|fecha)*>
+    <!ATTLIST archivado doc CDATA #IMPLIED>
+<!ELEMENT bibliotecario (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT patentado EMPTY>
+    <!ATTLIST patentado valor CDATA #IMPLIED>

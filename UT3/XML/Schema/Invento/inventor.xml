@@ -5,20 +5,51 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-<!DOCTYPE inventor SYSTEM "inventor.dtd">
+<!DOCTYPE inventores SYSTEM "inventor.dtd">
 
-<inventor
-    nombre="Robert Adler"
-    invento="Mando a distancia">
-    <pais>Viena</pais>
-    <fechanacimi>1913-12-04</fechanacimi>
-    <historia filas="6">
-    En 1956, Robert Adler desarrollo el “Zenith Space Command”
-    (Mando del espacio cenit), un control sin cables. Era mecánico y
-    usaba ultrasonidos para cambiar el canal y el volumen.
-    Cuando el usuario pulsaba un botón del mando a distancia, hacía
-    un chasquido y golpeaba una barra, de ahí el término para
-    denominarlo en EE.UU.“clicker” (chasqueador). Cada barra emitía
-    una......
-    </historia>
-</inventor>
+<inventores>
+    <inventor 
+        nombre="Robert Adler"
+        invento="Mando a distancia">
+        <pais>Viena</pais>
+        <fechanacimi>1913-12-04</fechanacimi>
+        <historia filas="6">
+            En 1956, Robert Adler desarrollo el “Zenith Space Command”
+            (Mando del espacio cenit), un control sin cables. Era mecánico y
+            usaba ultrasonidos para cambiar el canal y el volumen.
+            Cuando el usuario pulsaba un botón del mando a distancia, hacía
+            un chasquido y golpeaba una barra, de ahí el término para
+            denominarlo en EE.UU.“clicker” (chasqueador). Cada barra emitía
+            una......
+        </historia>
+        <archivado doc="RD_154">
+            El archivo lo realizó:
+            <bibliotecario>Rudolf Treys</bibliotecario>
+            En la fecha:
+            <fecha>1950-11-25</fecha>
+        </archivado>
+        <patentado valor="si"/>
+    </inventor>
+    <inventor 
+        nombre="Robert Adler"
+        invento="Mando a distancia">
+        <pais>Viena</pais>
+        <fechanacimi>1913-12-04</fechanacimi>
+        <historia filas="6">
+            En 1956, Robert Adler desarrollo el “Zenith Space Command”
+            (Mando del espacio cenit), un control sin cables. Era mecánico y
+            usaba ultrasonidos para cambiar el canal y el volumen.
+            Cuando el usuario pulsaba un botón del mando a distancia, hacía
+            un chasquido y golpeaba una barra, de ahí el término para
+            denominarlo en EE.UU.“clicker” (chasqueador). Cada barra emitía
+            una......
+        </historia>
+        <archivado doc="RD_154">
+            El archivo lo realizó:
+            <bibliotecario>Rudolf Treys</bibliotecario>
+            En la fecha:
+            <fecha>1950-11-25</fecha>
+        </archivado>
+        <patentado valor="si"/>
+    </inventor>
+</inventores>
