@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<pedido fechaPedido="2006-06-22"
+        xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xsi:noNamespaceSchemaLocation='pedidos.xsd'>
+    
+    <enviarA pais="EEUU">
+        <nombre>Alice Smith</nombre>
+        <calle>123 Maple Street</calle>
+        <ciudad>Cambridge</ciudad>
+        <estado>MA</estado>
+        <codigoPostal>12345</codigoPostal>
+    </enviarA>
+    
+    <facturarA>
+        <nombre>John Bob</nombre>
+        <calle>242 Main Street</calle>
+        <ciudad>Beverly Hills</ciudad>
+        <estado>CA</estado>
+        <codigoPostal>90210</codigoPostal>
+    </facturarA>
+    
+    <articulos>
+        <articulo codigoStock="872-AA">
+            <nombreProducto>Cortacésped</nombreProducto>
+            <cantidad>1</cantidad>
+            <precioEEUU>148.95</precioEEUU>
+            <comentario>Eléctrico con baterías recargables</comentario>
+            <fechaEnvio>2006-06-28</fechaEnvio>
+        </articulo>
+        <articulo codigoStock="926-BC">
+            <nombreProducto>Bolsa de tierra de abono marca
+                Acme</nombreProducto>
+            <cantidad>1</cantidad>
+            <precioEEUU>7.20</precioEEUU>
+        </articulo>
+    </articulos>
+    
+</pedido>

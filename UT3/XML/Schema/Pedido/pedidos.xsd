@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+
+    <xs:group name="groupDatosDireccion">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="calle" type="xs:string" />
+            <xs:element name="ciudad" type="xs:string" />
+            <xs:element name="estado" type="xs:string" />
+            <xs:element name="codigoPostal" type="xs:integer" />
+        </xs:sequence>
+    </xs:group>
+    
+    <xs:complexType name="ctArticulo">
+        <xs:sequence>
+            <xs:element name="nombreProducto" type="xs:string" />
+            <xs:element name="cantidad" type="xs:integer" />
+            <xs:element name="precioEEUU" type="xs:integer" />
+            <xs:element name="comentario" type="xs:string" />
+            <xs:element name="fechaEnvio" type="xs:date" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ctArticulos">
+            <xs:sequence>
+                <xs:element name="articulo" type="ctArticulo" />
+            </xs:sequence>
+            <xs:attribute name="fechaPedido" type="xs:date" />
+        </xs:complexType>
+    
+    <xs:element name="enviarA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:group ref="groupDatosDireccion" />
+            </xs:sequence>
+            <xs:attribute name="pais" type="xs:string" />
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="facturarA">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:group ref="groupDatosDireccion" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="pedido">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="articulos" type="ctArticulos" />
+            </xs:sequence>
+            <xs:attribute name="fechaPedido" type="xs:date" />
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
