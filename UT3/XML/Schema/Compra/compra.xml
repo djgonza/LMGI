@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<compra
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='compra.xsd'>
+    <DetallePedido>
+        <Articulo>
+            <NombreProducto>Boligrafo Azul</NombreProducto>
+            <Cantidad>300</Cantidad>
+            <PrecioUnitario>25.33</PrecioUnitario>
+        </Articulo>
+    </DetallePedido>
+    <MetodoPago>Metálico</MetodoPago>
+    <DetallesCliente>
+        <Nombre>Juan Antonio Rojas</Nombre>
+        <DireccionEnvio>
+            <Linea1>Avd. Marcelo Celayeta, Núm 8 Bajo</Linea1>
+            <Linea2>CP 31002, Pmaplona (Navarra)</Linea2>
+        </DireccionEnvio>
+        <DireccionPago>
+            <Linea1>Avd. Marcelo Celayeta, Núm 8 Bajo</Linea1>
+            <Linea2>CP 31002, Pmaplona (Navarra)</Linea2>
+        </DireccionPago>
+    </DetallesCliente>
+
+</compra>

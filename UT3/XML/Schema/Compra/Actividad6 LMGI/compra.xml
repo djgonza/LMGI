@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<compra fecha="2016-05-12"
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='compra.xsd'>
+    <detallepedido>
+        <articulo>
+            <nombreproducto>Bolígrafo azul</nombreproducto>
+            <cantidad>300</cantidad>
+            <preciounitario>2.33</preciounitario>
+        </articulo>
+    </detallepedido>
+    <metodopago>Metálico</metodopago>
+    <detallecliente>
+        <nombre>Juan Antonio Rojas</nombre>
+        <direccionenvio>
+            <linea1>Avda. Marcelo Celayeta Núm. 8 Bajo</linea1>
+            <linea2>CP 31002, Pamplona (Navarra)</linea2>
+        </direccionenvio>
+        <direccionpago>
+            <linea1>Avda. Marcelo Celayeta Núm. 8 Bajo</linea1>
+            <linea2>CP 31002, Pamplona (Navarra)</linea2>
+        </direccionpago>
+    </detallecliente>
+
+</compra>

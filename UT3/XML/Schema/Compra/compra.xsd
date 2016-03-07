@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xs:element name="compra">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="DetallePedido" type="TipoPedido" />
+                <xs:element name="MetodoPago" type="TipoMetodoPago" />
+                <xs:element name="DetallesCliente" type="TipoCliente" />
+            </xs:sequence>
+            <xs:attribute name="fecha" type="xs:date" />
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="TipoPedido">
+        <xs:sequence>
+            <xs:element name="Articulo" type="ctArticulo" minOccurs="1" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="ctArticulo">
+        <xs:sequence>
+            <xs:element name="NombreProducto" type="xs:string" />
+            <xs:element name="Cantidad" type="restCantidad" />
+            <xs:element name="PrecioUnitario" type="TipoPrecio" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="restCantidad">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0" />
+            <xs:maxInclusive value="500" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="TipoPrecio">
+        <xs:restriction base="xs:decimal">
+           <xs:fractionDigits value="2" />
+            
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="TipoMetodoPago">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="VISA" />
+            <xs:enumeration value="MasterCard" />
+            <xs:enumeration value="Metálico" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="TipoCliente">
+        <xs:sequence>
+            <xs:element name="Nombre" type="xs:string" />
+            <xs:element name="DireccionEnvio" type="TipoDireccion" />
+            <xs:element name="DireccionPago" type="TipoDireccion" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="TipoDireccion">
+        <xs:sequence>
+            <xs:element name="Linea1" type="xs:string" />
+            <xs:element name="Linea2" type="stLinea2" />
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="stLinea2">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[CP].*" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+</xs:schema>

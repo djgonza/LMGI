@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    
+    <xs:simpleType name="tipolinea2">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(CP).*"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:complexType name="tipodireccion">
+        <xs:sequence>
+            <xs:element name="linea1" type="xs:string"/>
+            <xs:element name="linea2" type="tipolinea2"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tipocliente">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="direccionenvio" type="tipodireccion"/>
+            <xs:element name="direccionpago" type="tipodireccion"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:simpleType name="tipometodopago">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="VISA"/>
+            <xs:enumeration value="MasterCard"/>
+            <xs:enumeration value="Metálico"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="tipoprecio">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+        
+    <xs:simpleType name="tipocantidad">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="500"/>
+        </xs:restriction>
+    </xs:simpleType>    
+        
+    <xs:complexType name="tipoarticulo">
+        <xs:sequence>
+            <xs:element name="nombreproducto" type="xs:string"/>
+            <xs:element name="cantidad" type="tipocantidad"/>
+            <xs:element name="preciounitario" type="tipoprecio"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="tipopedido">
+        <xs:sequence>
+            <xs:element name="articulo" type="tipoarticulo"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:element name="compra">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="detallepedido" type="tipopedido" minOccurs="1"/>
+                <xs:element name="metodopago" type="tipometodopago"/>
+                <xs:element name="detallecliente" type="tipocliente"/>
+            </xs:sequence>
+            <xs:attribute name="fecha" type="xs:date"/>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>
