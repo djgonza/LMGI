@@ -1,0 +1,30 @@
+Ejercicios con movies.xml
+
+1.-Título de las Comedias
+
+	Expresión XPath: //movie[@type='comedy']/title/text()
+
+2.-Actores que trabajaron con Nicolas Cage en alguna película.
+
+	Expresión XPath: //movie[//actor='Nicolas Cage']/actor/text()
+
+3.-Productores (si tienen name y surname deben aparecer) de alguna película en 1992.
+
+	? Expresión XPath: //movie[@year=1992]/producer
+
+4.-Título de las películas que tuvieron al menos tres actores.
+
+	Expresión XPath:
+
+5.-Título de las películas cuyo productor se apellida Wood.
+
+	Expresión XPath: 
+
+6.-Actores que trabajaron con Nicolas Cage en alguna película. Intenta eliminar de la
+lista el nombre de ‘Nicolas Cage’.
+
+	Expresión XPath: 
+
+7.-Titulo de las películas cuyo productor se apellida como al menos uno de los actores. 
+
+	Expresión XPath: 

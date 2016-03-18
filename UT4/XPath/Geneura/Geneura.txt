@@ -1,0 +1,85 @@
+1. Nombre de la Universidad:
+
+	Expresión XPath: /universidad/nombre/text()
+	Resultado: /universidad/nombre/text()
+
+2. País de la Universidad:
+
+	Expresión XPath: /universidad/pais/text()
+	Resultado: España
+
+3. Nombres de las Carreras:
+
+	Expresión XPath: //carrera/nombre/text()
+	Resultado: 
+
+4. Años de plan de estudio de las carreras:
+
+	Expresión XPath: //carrera/plan/text()
+	Resultado: 
+	
+5. Nombres de todos los alumnos:
+
+	Expresión XPath: //alumno/nombre/text()
+	Resultado: 
+	
+6. Identificadores de todas las carreras:
+
+	Expresión XPath: //carrera/@id
+	Resultado: 
+	
+7. Datos de la carrera cuyo id es c01:
+
+	Expresión XPath: //carrera[@id="c01"]
+	Resultado: 
+	
+8. Centro en que se estudia de la carrera cuyo id es c02:
+
+	Expresión XPath: //carrera[@id="c02"]/centro/text()
+	Resultado: 
+	
+9. Nombre de las carreras que tengan subdirector:
+
+	Expresión XPath: //carrera[subdirector]/nombre/text()
+	Resultado: 
+	
+10. Nombre de los alumnos que estén haciendo proyecto:
+
+	Expresión XPath: //alumno[estudios[proyecto]]/nombre/text()
+	Resultado: 
+	
+11. Códigos de las carreras en las que hay algún alumno matriculado:
+
+	Expresión XPath: //alumno//carrera/@codigo
+	Resultado: 
+	
+12. Apellidos y Nombre de los alumnos con beca:
+
+	Expresión XPath: //alumno[@beca]/nombre|//alumno[@beca]/apellido1|//alumno[@beca]/apellido2
+	Resultado: 
+	
+13. Nombre de las asignaturas de la titulación c04:
+
+	Expresión XPath: //asignatura[@titulacion='c04']/nombre/text()
+	Resultado: 
+	
+14. Nombre de las asignaturas de segundo trimestre:
+
+	Expresión XPath: //asignatura[trimestre=2]/nombre/text()
+	Resultado: 
+	
+15. Nombre de las asignaturas que no tienen 4 créditos teóricos:
+
+	Expresión XPath: //asignatura[creditos_teoricos!=4]/nombre/text()
+	Resultado: 
+	
+16. Código de la carrera que estudia el último alumno:
+
+	Expresión XPath: //alumno[last()]//carrera/@codigo
+	Resultado: 
+	
+17. Código de las asignaturas que estudian mujeres:
+
+	Expresión XPath: //alumno[sexo="Mujer"]//asignatura/@codigo
+	Resultado: 
+	
