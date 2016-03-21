@@ -1,0 +1,56 @@
+
+18. Nombre de los alumnos que matriculados en la asignatura a02:
+
+	Expresión XPath: //alumno[.//asignatura[@codigo='a02']]/nombre/text()
+
+19. Códigos de las carreras que estudian los alumnos matriculados en
+alguna asignatura:
+
+	Expresión XPath: //carrera[@id=//alumno//carrera/@codigo]/@id
+
+20. Apellidos (Apellido1 y Apellido2) de todos los hombres:
+
+	Expresión XPath: //alumno[sexo="Hombre"]/apellido1|//alumno[sexo="Hombre"]/apellido2
+
+21. Nombre de la carrera que estudia Víctor Manuel: Indica los pasos.
+
+	Expresión XPath: //carrera[@id=//alumno[nombre='Víctor Manuel']//carrera/@codigo]/nombre/text()
+
+	Paso 1: //alumno[nombre='Víctor Manuel']
+	Paso 2: //alumno[nombre='Víctor Manuel']//carrera/@codigo
+	Paso 3: //carrera[@id=//alumno[nombre='Víctor Manuel']//carrera/@codigo]/nombre/text()
+
+22. Nombre de las asignaturas que estudia Luisa: Indica los pasos
+
+	Expresión XPath: 
+
+	Paso 1: //alumno[nombre='Luisa']//asignatura/@codigo
+	Paso 2: //alumno[nombre='Luisa']
+	Paso 3: //asignatura[@id=//alumno[nombre='Luisa']//asignatura/@codigo]/nombre/text()
+
+
+23. Primer apellido de los alumnos matriculados en Ingeniería del
+Software:
+
+	Expresión XPath: //alumno[.//asignatura/@codigo=//asignatura[.//nombre='Ingeniería del Software']/@id]/apellido1/text()
+
+24. Nombre de las carreras que estudian los alumnos matriculados en la
+asignatura Tecnología de los Alimentos:
+
+	Expresión XPath: //carrera[@id=//alumno[.//asignatura/@codigo=//asignatura[.//nombre='Tecnología de los Alimentos']/@id]//carrera/@codigo]/nombre/text()
+
+25. Nombre de los alumnos matriculados en carreras que no tienen
+subdirector:
+
+	? Expresión XPath: //alumno[.//carrera/@codigo=//carrera[count(.//subdirector) > 0]/@id]/nombre
+
+26. Nombre de los alumnos matriculados en asignaturas con 0 créditos
+prácticos y que estudien la carrera de I.T. Informática (Opcional)
+
+	Expresión XPath: 
+
+27. Nombre de los alumnos que estudian carreras cuyos planes son
+anteriores a 2002 (Opcional: Aunque puede salir bien en Netbeans la
+expresión no se verifica bien en el enlace de internet)
+
+	Expresión XPath: 
