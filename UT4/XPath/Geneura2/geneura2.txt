@@ -47,7 +47,11 @@ subdirector:
 26. Nombre de los alumnos matriculados en asignaturas con 0 créditos
 prácticos y que estudien la carrera de I.T. Informática (Opcional)
 
-	Expresión XPath: 
+	Expresión XPath: //alumno[.//carrera/@codigo=//carrera[nombre = "I.T. Informática"]/@id and .//asignatura/@codigo=//asignatura[.//creditos_practicos = 0]/@id]/nombre/text()
+	
+	//asignatura[.//creditos_practicos = 0]/@id
+	//carrera[nombre = "I.T. Informática"]/@id
+	
 
 27. Nombre de los alumnos que estudian carreras cuyos planes son
 anteriores a 2002 (Opcional: Aunque puede salir bien en Netbeans la
