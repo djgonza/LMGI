@@ -57,4 +57,4 @@ prácticos y que estudien la carrera de I.T. Informática (Opcional)
 anteriores a 2002 (Opcional: Aunque puede salir bien en Netbeans la
 expresión no se verifica bien en el enlace de internet)
 
-	Expresión XPath: 
+	Expresión XPath: //alumno[.//carrera/@codigo=//carrera[plan < 2002]/@id]/nombre/text()
