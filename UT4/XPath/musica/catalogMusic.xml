@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO_8859_1"?>
+<Catalog> 
+    <discograf id="RCA">RCA Records Sony Musyc Entertainment</discograf>
+    <Album artist="The Last Shadow DUR_uppets" title="The Age Of The Understatement" año="2007"> 
+        <Track rating="6" length="DUR_3M7S">The Age Of The Understatement</Track> 
+        <Track rating="5" length="DUR_2M18S">Standing Next To Me</Track> 
+        <Track rating="4" length="DUR_2M26S">Calm Like You</Track> 
+        <Track rating="3" length="DUR_3M38S">Separate and Ever Deadly</Track> 
+        <Track rating="2" length="DUR_2M37S">The Chamber</Track> 
+        <Track rating="1" length="DUR_2M44S">Only The Truth</Track> 
+        <productor>James Ford</productor>
+        <componente>Alex Turner</componente>
+        <componente>Miles Kane</componente>
+        <cd>7.99</cd>
+    </Album> 
+    <Album artist="Kings Of Leon" title="Because Of The Times" año="2007"> 
+        <Track rating="5" length="DUR_7M10S">Knocked Up</Track> 
+        <Track rating="4" length="DUR_2M57S">Charmer</Track> 
+        <Track rating="3" length="DUR_3M21S">On Call</Track> 
+        <Track rating="2" length="DUR_3M09S">McFearless</Track> 
+        <Track rating="1" length="DUR_3M59S">Black Thumbnail</Track> 
+        <productor>RCA</productor>
+        <componente>Caleb Followill</componente>
+        <componente>Nathan Followill</componente>
+        <componente>Jared Followill</componente>
+        <componente>Matthew Followill</componente>
+        <cd>7.15</cd>
+    </Album> 
+    <Album artist="Kings Of Leon" title="Come Around Sundown" año="2010"> 
+        <Track rating="7" length="DUR_2M51S">Back Down South</Track> 
+        <Track rating="6" length="DUR_4M01S">The Inmortals</Track> 
+        <Track rating="5" length="DUR_3M28S">The Face</Track> 
+        <Track rating="4" length="DUR_3M21S">Mary</Track> 
+        <Track rating="3" length="DUR_4M10S">Pyro</Track> 
+        <Track rating="2" length="DUR_3M26S">Radioctive</Track> 
+        <Track rating="1" length="DUR_6M01S">The End</Track> 
+        <productor>RCA</productor>
+        <componente>Caleb Followill</componente>
+        <componente>Nathan Followill</componente>
+        <componente>Jared Followill</componente>
+        <componente>Matthew Followill</componente>
+        <cd>7.15</cd>
+    </Album>
+        <Album artist="Lady Gaga" title="ARTPOP" año="2013"> 
+            <Track rating="8" length="DUR_4M08S">ArtPOP</Track> 
+            <Track rating="7" length="DUR_3M47S">Do What U Want</Track> 
+            <Track rating="6" length="DUR_3M20S">ManiCure</Track> 
+            <Track rating="5" length="DUR_3M48S">Jewels N'Drugs</Track> 
+            <Track rating="4" length="DUR_3M35S">Sexxx Dreams</Track> 
+            <Track rating="3" length="DUR_3M21S">G.U.Y</Track> 
+            <Track rating="2" length="DUR_3M54S">Venus</Track> 
+            <Track rating="1" length="DUR_3M56S">Aura</Track> 
+            <productor>Interscope records</productor>
+            <componente>Lady Gaga</componente>
+            <mp3>7</mp3>
+            <cd>16.82</cd>
+        </Album> 
+        <Album artist="Nena Daconte" title="Una Mosca en el cristal" año="2010"> 
+            <Track rating="7" length="DUR_4M02S">Solo fue curiosidad</Track> 
+            <Track rating="6" length="DUR_3M40S">Perdida</Track> 
+            <Track rating="5" length="DUR_3M39S">Te Esperaré</Track> 
+            <Track rating="4" length="DUR_2M52S">Una mosca en el cristalr</Track> 
+            <Track rating="3" length="DUR_3M21S">El Halcón que vive en mi cabeza</Track> 
+            <Track rating="2" length="DUR_3M56S">Pregúntame</Track> 
+            <Track rating="1" length="DUR_3M15S">No te invité a dormir</Track> 
+            <productor>Alejo Stiles</productor>
+            <componente>Mai Menesses</componente>
+            <componente>Kim Fanlo</componente>
+            <mp3>6.50</mp3>
+            <cd>1088</cd>
+        </Album> 
+</Catalog> 

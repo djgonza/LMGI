@@ -1,0 +1,55 @@
+1.  Obtener todos los álbumes  
+
+//Album
+  
+2.  Todos los álbumes del artista  Kings Of Leon  
+   
+//Album[@artist='Kings Of Leon']
+
+3.  Seleccionar todas las canciones de  Nena Daconte  
+
+//Album[@artist='Nena Daconte']/Track   
+
+4.  Seleccionar el tercer álbum  del catálogo 
+
+//Album[3]
+ 
+5.  Seleccionar todas las canciones  que se encuentren en la pista 4 
+ 
+//Track[@rating=4]
+
+6.  Los nombres de los artistas cuyos títulos se pueden comprar en formato mp3:  
+ 
+//Album[.//mp3]/@artist
+
+7.  Los títulos  de los trabajos cuyo precio a la venta en formato cd redondeado sea 
+7€ 
+ 
+//Album[floor(.//cd) = 7]/@title
+
+8.  El nombre de las canciones que tienen de duración 3M21S: 
+ 
+//Track[@length='DUR_3M21S']/text()
+
+9.  La artista del álbum que tiene la canción Do What U Want: 
+ 
+//Track[.='Do What U Want']/../@artist
+
+10. Los títulos de las obras en las que han participado 1 o 2 componentes: 
+ 
+//Album[count(componente) = 1 or count(componente) = 2]/@title
+
+11. Los nº de pista(rating) de las canciones que empiezan por T 
+ 
+//Track[starts-with(., 'T')]/@rating
+
+12. Las canciones editadas por la discográfica RCA Records Sony Musyc 
+Entertainment en el año 2010 
+
+
+ 
+13. La duración de las canciones que tengan más de 12 caracteres de longitud: 
+ 
+ 
+Añadir 2 consultas nuevas (14 y 15) con alguna complicación interesante y resolverlas 
+igual que el resto. 
