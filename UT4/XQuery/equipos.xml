@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<equipos>
+  <portatil>
+    <marca>ACER ASPIRE</marca>
+    <referencia>4736-6265</referencia>
+    <procesador>Core 2 duo 2,2Ghz</procesador>
+    <hd>320</hd>
+    <ram>4</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>true</bluetooth>
+    <otros>HDMI</otros>
+    <precio>1560</precio>
+  </portatil>
+  <portatil>
+    <marca>ACER</marca>
+    <referencia>4732Z-4059</referencia>
+    <procesador>Dual core 2,2</procesador>
+    <hd>320</hd>
+    <ram>3 </ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>false</bluetooth>
+    <otros/>
+    <precio>1320</precio>
+  </portatil>
+  <portatil>
+    <marca>ACER</marca>
+    <referencia>4732Z-4583</referencia>
+    <procesador>Dual core 2,2</procesador>
+    <hd>250</hd>
+    <ram>2</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>false</bluetooth>
+    <otros/>
+    <precio>1150</precio>
+  </portatil>
+  <portatil>
+    <marca>TOSHIBA</marca>
+    <referencia>L515-SP3014</referencia>
+    <procesador>Dual core 2,1</procesador>
+    <hd>320</hd>
+    <ram>2</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>false</bluetooth>
+    <otros>Rec. Facial</otros>
+    <precio>1345</precio>
+  </portatil>
+  <portatil>
+    <marca>TOSHIBA</marca>
+    <referencia>L515-SP4011</referencia>
+    <procesador>Dual core 2,1</procesador>
+    <hd>250</hd>
+    <ram>2</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>false</bluetooth>
+    <otros/>
+    <precio>1210</precio>
+  </portatil>
+  <portatil>
+    <marca>TOSHIBA</marca>
+    <referencia>T135-2909</referencia>
+    <procesador>Intel pentium su 2700</procesador>
+    <hd>320</hd>
+    <ram>3</ram>
+    <pantalla>13,3</pantalla>
+    <dvd>false</dvd>
+    <bluetooth>true</bluetooth>
+    <otros/>
+    <precio>1350</precio>
+  </portatil>
+  <portatil>
+    <marca>TOSHIBA</marca>
+    <referencia>U505-SP2017</referencia>
+    <procesador>Core i 3 2,13 Ghz</procesador>
+    <hd>320</hd>
+    <ram>4</ram>
+    <pantalla>13</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>true</bluetooth>
+    <otros>HDMI</otros>
+    <precio>1950</precio>
+  </portatil>
+  <portatil>
+    <marca>COMPAQ</marca>
+    <referencia>CQ40-621LA</referencia>
+    <procesador>AMD Semprom 2,2</procesador>
+    <hd>250</hd>
+    <ram>1</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>false</bluetooth>
+    <otros/>
+    <precio>970</precio>
+  </portatil>
+  <portatil>
+    <marca>COMPAQ</marca>
+    <referencia>CQ41-226LA</referencia>
+    <procesador>Atlhon II dual core</procesador>
+    <hd>320</hd>
+    <ram>2</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>true</bluetooth>
+    <otros/>
+    <precio>1225</precio>
+  </portatil>
+  <portatil>
+    <marca>HP MINI</marca>
+    <referencia>210-1040LA</referencia>
+    <procesador>Intel atom 1,6 Ghz</procesador>
+    <hd>250</hd>
+    <ram>2</ram>
+    <pantalla>10</pantalla>
+    <dvd>false</dvd>
+    <bluetooth>true</bluetooth>
+    <otros>lect.huell</otros>
+    <precio>990</precio>
+  </portatil>
+  <portatil>
+    <marca>HP</marca>
+    <referencia>DV4-2012</referencia>
+    <procesador>Atlhon X2 2,2 Ghz</procesador>
+    <hd>320</hd>
+    <ram>2GB</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>true</bluetooth>
+    <otros>lect.huell</otros>
+    <precio>1340</precio>
+  </portatil>
+  <portatil>
+    <marca>HP</marca>
+    <referencia>DV4-2016</referencia>
+    <procesador>AMD Turion II 2,2 </procesador>
+    <hd>320</hd>
+    <ram>4GB</ram>
+    <pantalla>14</pantalla>
+    <dvd>true</dvd>
+    <bluetooth>true</bluetooth>
+    <otros>lect.huell</otros>
+    <precio>1550</precio>
+  </portatil>
+</equipos>

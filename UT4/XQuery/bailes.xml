@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<Bailes>
+    <baile id="1">
+        <nombre>Tango</nombre>
+        <precio cuota="mensual">37</precio>
+        <plazas>16</plazas>
+        <comienzo>2013-09-01</comienzo>
+        <fin>2013-12-01</fin>
+        <profesor>Juan Diego</profesor>
+        <sala>A1</sala>
+    </baile>
+    <baile id="2">
+        <nombre>Cha-cha-cha</nombre>
+        <precio cuota="trimestral">90</precio>
+        <plazas>12</plazas>
+        <comienzo>2013-02-01</comienzo>
+        <fin>2013-11-01</fin>
+        <profesor>Maitetxu</profesor>
+        <sala>A1</sala>
+    </baile>
+    <baile id="3">
+        <nombre>Rock</nombre>
+        <precio cuota="mensual">43</precio>
+        <plazas>15</plazas>
+        <comienzo>2013-01-01</comienzo>
+        <fin>2013-06-01</fin>
+        <profesor>Saioa</profesor>
+        <sala>A1</sala>
+    </baile>
+    <baile id="4">
+        <nombre>Bachata</nombre>
+        <precio cuota="mensual">25</precio>
+        <plazas>18</plazas>
+        <comienzo>2013-09-01</comienzo>
+        <fin>2014-02-01</fin>
+        <profesor>Paco</profesor>
+        <sala>A3</sala>
+    </baile>
+    <baile id="5">
+        <nombre>Salsa</nombre>
+        <precio cuota="trimestral">75</precio>
+        <plazas>22</plazas>
+        <comienzo>2013-02-01</comienzo>
+        <fin>2013-08-01</fin>
+        <profesor>Marieta</profesor>
+        <sala>A3</sala>
+    </baile>
+    <baile id="6">
+        <nombre>Pasodoble</nombre>
+        <precio cuota="anual">180</precio>
+        <plazas>12</plazas>
+        <comienzo>2013-01-01</comienzo>
+        <fin>2014-01-01</fin>
+        <profesor>Fatima</profesor>
+        <sala>A3</sala>
+    </baile>
+    <baile id="7">
+        <nombre>Batuka</nombre>
+        <precio cuota="anual">300</precio>
+        <plazas>12</plazas>
+        <comienzo>2013-12-01</comienzo>
+        <fin>2014-06-01</fin>
+        <profesor>Paco</profesor>
+        <sala>A2</sala>
+    </baile>
+    <baile id="8">
+        <nombre>Funky Hip-Hop</nombre>
+        <precio cuota="mensual">40</precio>
+        <plazas>15</plazas>
+        <comienzo>2014-01-01</comienzo>
+        <fin>2014-06-01</fin>
+        <profesor>Saioa</profesor>
+        <sala>2</sala>
+    </baile>
+</Bailes>

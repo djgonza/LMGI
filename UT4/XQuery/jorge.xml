@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<libros>
+    <libro codigo ="1">
+        <isbn>123</isbn>
+        <titulo>Recuperación de Información</titulo>
+        <autores>
+            <autor>
+                <nombre>Axel</nombre>
+                <apellido>Polleres</apellido>
+                <email>axel@a.com</email>
+            </autor>
+            <autor>
+                <nombre>Jorge</nombre>
+                <apellido>Huedo</apellido>
+                <email>jhuedo@a.com</email>
+            </autor>
+            <editor>
+                <nombre>McGraw Hill</nombre>
+            </editor>
+            <precio>60</precio>
+            <año>2007</año>
+            <revisiones>Alejandro Mota</revisiones>
+        </autores>
+    </libro>
+    <libro codigo ="2">
+        <isbn>456</isbn>
+        <titulo>Quijote</titulo>
+        <autores>
+            <autor>
+                <nombre>Miguel</nombre>
+                <editor>
+                    <nombre>Casa del Libro</nombre>
+                </editor>
+                <precio>30</precio>
+                <año>1605</año>
+            </autor>
+        </autores>
+    </libro>
+</libros>

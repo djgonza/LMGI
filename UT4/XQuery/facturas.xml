@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+  <factura id="100000">
+    <cliente>44783023G</cliente>
+    <articulo>
+      <id>4736-6265</id>
+      <precio>1560</precio>
+    </articulo>
+    <articulo>
+      <id>DV4-2012</id>
+      <precio>1340</precio>
+    </articulo>
+  </factura>
+  <factura id="100001">
+    <cliente>33893983H</cliente>
+    <articulo>
+      <id>4732Z-4059</id>
+      <precio>1320</precio>
+    </articulo>
+    <articulo>
+      <id>4732Z-4059</id>
+      <precio>1320</precio>
+    </articulo>
+  </factura>
+  <factura id="100002">
+    <cliente>22390349N</cliente>
+    <articulo>
+      <id>4732Z-4583</id>
+      <precio>1150</precio>
+    </articulo>
+    <articulo>
+      <id>4736-6265</id>
+      <precio>1560</precio>
+    </articulo>
+  </factura>
+  <factura id="100003">
+    <cliente>55234983E</cliente>
+    <articulo>
+      <id>L515-SP3014</id>
+      <precio>1345</precio>
+    </articulo>
+  </factura>
+  <factura id="100004">
+    <cliente>34987893Y</cliente>
+    <articulo>
+      <id>L515-SP4011</id>
+      <precio>1210</precio>
+    </articulo>
+  </factura>
+  <factura id="100005">
+    <cliente>55234983E</cliente>
+    <articulo>
+      <id>T135-2909</id>
+      <precio>1350</precio>
+    </articulo>
+    <articulo>
+      <id>DV4-2012</id>
+      <precio>1340</precio>
+    </articulo>
+  </factura>
+  <factura id="100006">
+    <cliente>33893983H</cliente>
+    <articulo>
+      <id>U505-SP2017</id>
+      <precio>1950</precio>
+    </articulo>
+  </factura>
+  <factura id="100007">
+    <cliente>33893983H</cliente>
+    <articulo>
+      <id>CQ40-621LA</id>
+      <precio>970</precio>
+    </articulo>
+  </factura>
+  <factura id="100008">
+    <cliente>23893758N</cliente>
+    <articulo>
+      <id>CQ41-226LA</id>
+      <precio>1225</precio>
+    </articulo>
+    <articulo>
+      <id>4736-6265</id>
+      <precio>1560</precio>
+    </articulo>
+  </factura>
+  <factura id="100009">
+    <cliente>44783023G</cliente>
+    <articulo>
+      <id>210-1040LA</id>
+      <precio>990</precio>
+    </articulo>
+  </factura>
+  <factura id="100010">
+    <cliente>44783023G</cliente>
+    <articulo>
+      <id>DV4-2012</id>
+      <precio>1340</precio>
+    </articulo>
+  </factura>
+  <factura id="100011">
+    <cliente>33893983H</cliente>
+    <articulo>
+      <id>DV4-2016</id>
+      <precio>1550</precio>
+    </articulo>
+  </factura>
+</facturas>
