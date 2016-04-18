@@ -73,7 +73,7 @@ and open the template in the editor.
     
     <xs:simpleType name="stLinea2">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[CP].*" />
+            <xs:pattern value="(CP).*" />
         </xs:restriction>
     </xs:simpleType>
     
