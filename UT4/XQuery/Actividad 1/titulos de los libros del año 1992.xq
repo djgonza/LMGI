@@ -1,1 +1,0 @@
-doc("libros.xml")/bib/libro[@año=1992]/data(titulo)
