@@ -1,0 +1,20 @@
+<html>
+<body>
+<h1>Bailes ofertados</h1>
+<table border="1">
+	<tr>
+		<th>Nombre profesor</th>
+		<th>Nombre baile</th>
+	</tr>
+
+
+{
+for $x in doc("bailesDos.xml")//profesor
+return <tr>
+	<td>{$x/data(nombre)}</td>
+	<td>{$x/baile/data(nombre)}</td>
+	</tr>
+}
+</table>
+</body>
+</html>

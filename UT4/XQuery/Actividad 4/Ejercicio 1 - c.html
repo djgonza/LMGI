@@ -1,0 +1,31 @@
+<html>
+<body>
+<h1>Bailes ofertados con pago Mensual</h1>
+<table border="1">
+	<tr>
+		<th>Nombre baile</th>
+		<th>Nombre profesor</th>
+		<th>Fecha inicio</th>
+		<th>Fecha fin</th>
+		<th>Precio mensual</th>
+		<th>Meses</th>
+		<th>Precio Total</th>
+	</tr>
+
+{
+for $x in doc("bailes.xml")//baile
+where $x/precio/@cuota="mensual"
+return 	<tr>
+		<td>{$x/data(nombre)}</td>
+		<td>{$x/data(profesor)}</td>
+		<td>{$x/data(comienzo)}</td>
+		<td>{$x/data(fin)}</td>
+		<td>{$x/data(precio)}</td>
+		<td>{round((xs:integer($x/days-from-duration(xs:date($x/fin) - xs:date($x/comienzo)))) div 30)}</td>
+		<td>{$x/data(precio) * round((xs:integer($x/days-from-duration(xs:date($x/fin) - xs:date($x/comienzo)))) div 30)}</td>
+	</tr>
+	
+}
+</table>
+</body>
+</html>

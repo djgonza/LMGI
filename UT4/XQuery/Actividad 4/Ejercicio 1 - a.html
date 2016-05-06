@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>Bailes ofertados de forma trimestral</h1>
+<table border="1">
+	<tr>
+		<th style="color: #FF0000">Nombre baile</th>
+		<th style="color: #FF0000">Nombre profesor</th>
+	</tr>
+
+{
+for $x in doc("bailes.xml")//baile
+where $x/precio/@cuota="trimestral"
+order by $x
+return 	<tr>
+		<td>{$x/data(nombre)}</td>
+		<td>{$x/data(profesor)}</td>
+	</tr>
+	
+}
+</table>
+</body>
+</html>

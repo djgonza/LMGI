@@ -1,0 +1,26 @@
+<html>
+<body>
+<h1>Bailes ofertados</h1>
+<table border="1">
+	<tr>
+		<th>Nombre baile</th>
+		<th>Nombre profesor</th>
+		<th>Fecha inicio</th>
+		<th>Fecha fin</th>
+		<th>Dias de curso</th>
+	</tr>
+
+{
+for $x in doc("bailes.xml")//baile
+return 	<tr>
+		<td>{$x/data(nombre)}</td>
+		<td>{$x/data(profesor)}</td>
+		<td>{$x/data(comienzo)}</td>
+		<td>{$x/data(fin)}</td>
+		<td>{$x/days-from-duration(xs:date($x/fin) - xs:date($x/comienzo))}</td>
+	</tr>
+	
+}
+</table>
+</body>
+</html>
