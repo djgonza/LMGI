@@ -1,0 +1,26 @@
+<html>
+<body>
+<h1>Articulos</h1>
+<table border="1">
+	<tr>
+		<th style="color: #FF0000">Marca</th>
+		<th style="color: #FF0000">Referencia</th>
+		<th style="color: #FF0000">Unidades</th>
+	</tr>
+
+{
+
+for $x in doc("equipos.xml")//portatil
+let $y := doc("facturas.xml")//id[.= $x/referencia]
+order by count($y)
+
+return 	<tr>
+		<td>{$x/data(marca)}</td>
+		<td>{$x/data(referencia)}</td>
+		<td>{count($y)}</td>
+	</tr>
+	
+}
+</table>
+</body>
+</html>
