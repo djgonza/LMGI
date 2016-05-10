@@ -12,7 +12,7 @@ for $x in doc("bailes.xml")//baile
 where $x/precio/@cuota="trimestral"
 order by $x
 return 	<tr>
-		<td>{$x/data(nombre)}</td>
+		<td>{data($x/nombre)}</td>
 		<td>{$x/data(profesor)}</td>
 	</tr>
 	

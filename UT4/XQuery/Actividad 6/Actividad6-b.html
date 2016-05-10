@@ -1,0 +1,22 @@
+<html>
+<body>
+<h1>Articulos</h1>
+<table border="1">
+	<tr>
+		<th style="color: #FF0000">Cliente</th>
+		<th style="color: #FF0000">Gastos</th>
+	</tr>
+
+{
+
+for $x in doc("facturas.xml")//factura
+order by sum($x//precio) descending
+return 	<tr>
+		<td>{data($x//cliente)}</td>
+		<td>{sum($x//precio)}</td>
+	</tr>
+	
+}
+</table>
+</body>
+</html>

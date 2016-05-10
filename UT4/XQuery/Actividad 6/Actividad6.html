@@ -12,11 +12,11 @@
 
 for $x in doc("equipos.xml")//portatil
 let $y := doc("facturas.xml")//id[.= $x/referencia]
-order by count($y)
+order by count($y) descending
 
 return 	<tr>
-		<td>{$x/data(marca)}</td>
-		<td>{$x/data(referencia)}</td>
+		<td>{data(marca)}</td>
+		<td>{data($x/referencia)}</td>
 		<td>{count($y)}</td>
 	</tr>
 	
