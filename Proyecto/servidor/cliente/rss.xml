@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+  <channel>
+    <title>W3Schools Home Page</title>
+    <link>http://www.w3schools.com</link>
+    <description>Free web building tutorials</description>
+    <item>
+      <title>a</title>
+      <link>s</link>
+      <descripcion>d</descripcion>
+      <image>
+        <url>s</url>
+      </image>
+    </item>
+    <item>
+      <title>El titulo</title>
+      <link>el link</link>
+      <descripcion>la descripcion</descripcion>
+      <image>
+        <url>url de la imagen</url>
+      </image>
+    </item>
+  </channel>
+</rss>

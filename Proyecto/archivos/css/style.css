@@ -110,7 +110,6 @@ article {
 			}
 
 .portada {
-	display: flex;
 	flex-direction: column;
 	margin-bottom: 3em;
 	text-align: justify;

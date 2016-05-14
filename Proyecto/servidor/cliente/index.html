@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Iron Man</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/eventos.js"></script>
+</head>
+<body>
+	
+	<!--<div id="menu">
+		<!-- Boton Peliculas -->
+		<!--<div class="boton_seccion" style="flex: 8"></div>
+		<div class="boton_seccion" id="boton_peliculas">
+			<div class="nombre-boton" id="boton_peliculas_nombre">Películas</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">video_library</i>
+			</a>
+		</div>
+		<!-- Boton Musica -->
+		<!--<div class="boton_seccion" id="boton_musica">
+			<div class="nombre-boton" id="boton_musica_nombre">Música</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">library_music</i>
+			</a>
+		</div>
+		<!-- Boton Comics -->
+		<!--<div class="boton_seccion" id="boton_comics">
+			<div class="nombre-boton" id="boton_comics_nombre">Cómics</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">donut_small</i>
+			</a>
+		</div>
+		<!-- Boton Cuestionario -->
+		<!--<div class="boton_seccion" id="boton_cuestionario">
+			<div class="nombre-boton" id="boton_cuestionario_nombre">Cuestionario</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">feedback</i>
+			</a>
+		</div>
+	</div>-->
+	
+	<div class="rss hide" id="rss">
+		<form class="" action="/" method="post" accept-charset="utf-8" id="rss_form">
+			<div class="card blue-grey darken-1 rssCard">
+				<!-- rss -->
+				
+				<div class="card-content white-text">
+
+					<span class="card-title">Titulo</span>
+					<p>
+						Titulo:<br />
+							<input type="text" name="titulo"><br>
+						Link:<br />
+							<input type="text" name="link">
+						Descripcion:<br />
+							<input type="text" name="descripcion">
+						Imagen:<br />
+							<input type="text" name="imagen">
+					</p>
+				</div>
+				<div class="card-action">
+					<input class="waves-effect waves-light btn" type="submit" value"Enviar">
+				</div>
+				
+			</div>
+		</form>
+	</div>
+
+	<ul id="menu">
+		<li class="boton_seccion" style="flex: 8"></li>
+		<li class="boton_seccion" id="boton_peliculas">
+			<div class="nombre-boton" id="boton_peliculas_nombre">Películas</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">video_library</i>
+			</a>
+		</li>
+		<li class="boton_seccion" id="boton_musica">
+			<div class="nombre-boton" id="boton_musica_nombre">Música</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">library_music</i>
+			</a>
+		</li>
+		<li class="boton_seccion" id="boton_comics">
+			<div class="nombre-boton" id="boton_comics_nombre">Cómics</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">donut_small</i>
+			</a>
+		</li>
+		<li class="boton_seccion" id="boton_cuestionario">
+			<div class="nombre-boton" id="boton_cuestionario_nombre">Cuestionario</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">feedback</i>
+			</a>
+		</li>
+		<li class="boton_seccion" id="boton_rss">
+			<div class="nombre-boton" id="boton_rss_nombre">Rss</div>
+			<a href="rss.xml" class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">rss_feed</i>
+			</a>
+		</li>
+		<li class="boton_seccion" id="boton_add_rss">
+			<div class="nombre-boton" id="boton_add_rss_nombre">Add Noticia</div>
+			<a class="btn-floating btn-large waves-effect waves-light red">
+				<i class="material-icons">note_add</i>
+			</a>
+		</li>
+	</ul>
+
+	<main id="main">
+		<section>
+			<article></article>
+			<article>
+				<div class="titulo-seccion">Películas</div>
+				<div class="trailers">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/YM4NCnJxzTU?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<div>
+						<h2>Iron Man 1</h2>
+						<p>El multimillonario fabricante de armas Tony Stark (Robert Downey Jr.) debe enfrentarse a su turbio pasado después de sufrir un accidente con una de sus armas. Equipado con una armadura de última generación tecnológica, se convierte en "El hombre de hierro", un héroe que se dedica a combatir el mal en todo el mundo.</p>
+					</div>
+				</div>
+				<div class="trailers">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/pU0vJiJbORk?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<div>
+						<h2>Iron Man 2</h2>
+						<p>El mundo ya sabe que el multimillonario Tony Stark (Robert Downey Jr.) es Iron Man, el superhéroe enmascarado. A pesar de las presiones del gobierno, la prensa y la opinión pública para que comparta su tecnología con el ejército, Tony es reacio a desvelar los secretos de la armadura de Iron Man, porque teme que esa información caiga en en manos de irresponsables. Con Pepper Potts (Gwyneth Paltrow) y James “Rhodey” Rhodes (Don Cheadle) a su lado, Tony forja alianzas nuevas y se enfrenta a nuevas y poderosas fuerzas.</p>
+					</div>
+				</div>
+				<div class="trailers">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/6dhCPF_Jsco?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<div>
+						<h2>Iron Man 3</h2>
+						<p>El descarado y brillante empresario Tony Stark/Iron Man se enfrentará a un enemigo cuyo poder no conoce límites. Cuando Stark comprende que su enemigo ha destruido su universo personal, se embarca en una angustiosa búsqueda para encontrar a los responsables. Este viaje pondrá a prueba su entereza una y otra vez. Acorralado, Stark tendrá que sobrevivir por sus propios medios, confiando en su ingenio y su instinto para proteger a las personas que quiere.</p>
+					</div>
+				</div>
+			</article>
+			<article></article>
+		</section>
+		<section>
+			<article>
+				<div class="musica">
+					<div class="titulo-seccion">Música</div>
+					<div>
+						<div>
+							<div>
+								<p>01 Driving With The Top Down</p>
+								<audio controls>
+									<source src="musica/01 Driving With The Top Down.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>02 Iron Man</p>
+								<audio controls>
+									<source src="musica/02 Iron Man.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>03 Merchant Of Death</p>
+								<audio controls>
+									<source src="musica/03 Merchant Of Death.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>04 Trinkets To Kill A Prince</p>
+								<audio controls>
+									<source src="musica/04 Trinkets To Kill A Prince.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>05 Mark I</p>
+								<audio controls>
+									<source src="musica/05 Mark I.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div clas="cancion">
+								<p>06 Fireman</p>
+								<audio controls>
+									<source src="musica/06 Fireman.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>07 Vacation's Over</p>
+								<audio controls>
+									<source src="musica/07 Vacation's Over.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>08 Golden Egg</p>
+								<audio controls>
+									<source src="musica/08 Golden Egg.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>09 DamnKid</p>
+								<audio controls>
+									<source src="musica/09 DamnKid.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>10 Mark II</p>
+								<audio controls>
+									<source src="musica/10 Mark II.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>11 Extra Dry, Extra Olives</p>
+								<audio controls>
+									<source src="musica/11 Extra Dry, Extra Olives.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>12 Iron Man</p>
+								<audio controls>
+									<source src="musica/12 Iron Man.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>13 Gulmira</p>
+								<audio controls>
+									<source src="musica/13 Gulmira.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>14 Are Those Bullet Holes</p>
+								<audio controls>
+									<source src="musica/14 Are Those Bullet Holes.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>15 Section 16</p>
+								<audio controls>
+									<source src="musica/15 Section 16.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>16 Iron Monger</p>
+								<audio controls>
+									<source src="musica/16 Iron Monger.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>17 Arc Reaktor</p>
+								<audio controls>
+									<source src="musica/17 Arc Reaktor.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div>
+								<p>18 Institutionalized</p>
+								<audio controls>
+									<source src="musica/18 Institutionalized.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+						</div>
+						<div>
+							<div>
+								<p>19 Iron Man</p>
+								<audio controls>
+									<source src="musica/19 Iron Man.mp3" type="audio/mpeg">
+								</audio>
+							</div>
+							<div></div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="portada">
+					<div class="titulo-seccion" style="display: block !important;">Iron Man</div>
+					<div>
+						<div>
+							<img src="img/11.png" alt="Iron Man">
+						</div>
+						<div>
+							<div class="titulo-seccion" style="position: inherit;">Historia</div>
+							<p>Anthony Stark, hijo del industrial Howard Stark, demostró su aptitud mecánica y su genio inventivo a muy temprana edad, metiéndose en un programa de ingeniería eléctrica en el Instituto de Tecnología de Massachusetts a los quince años. Cuando cumplió veintiuno, heredó el negocio de su padre, Industrias Stark, y, en pocos años, lo convirtió en un complejo industrial multimillonario cuyos principales contratos era para proporcionar armamento y municiones al gobierno norteamericano.</p>
+
+							<p>Enviado a Vietnam para supervisar un campo de pruebas de una de sus armas transistorizadas, Stark cayó en una trampa para bobos y obtuvo un pieza de metralla en su pecho. En una semana, se le comunicó que se abriría camino hacia el corazón y que él moriría. Tomado cautivo por un líder comunista llamado Wong-Chu, él ofreció un trato a Stark; si construía un arma poderosa al comunista, le operarían para salvar su vida. Stark aceptó, esperando ganar tiempo y acceso a las herramientas.</p>
+						</div>
+					</div>
+					<div>
+						<div>
+							<p>Encerrado en un pequeño laboratorio con otro prisionero, el renombrado físico oriental Profesor Ho Yinsen, Stark diseñó y construyó, con la ayuda de Yinsen, un uniforme transistorizado de armadura de hierro con potencia eléctrica, equipado con armamento ofensivo pesado. La armadura contenía un aparato similar a un marcapasos que permitía al corazón de Stark seguir latiendo después de que la metralla entrase en él. Poniéndose el uniforme, Stark lo conectó a su fuente de poder, un generador eléctrico. Su captor, Wong-Chu, sintió que algo iba mal y fue a investigar. El Profesor Yinsen se sacrificó para dar a Stark el tiempo que necesitaba para cargar completamente su armadura. Como Iron Man el Hombre de Hierro (Yo lo llamo Iron Man, pero Hombre de Hierro es sinónimo en castellano), Stark vengó la muerte de Yinsen y esparció las tropas de guerrilla de Wong-Chu. Stark escapó de la jungla con la ayuda del piloto americano de helicópteros Teniente James Rhodes, y volvió a América vestido con su nueva armadura.</p>
+							<p>Requiriendo el uso de la placa pectoral de la armadura para apartar la metralla de su corazón, Stark decidió dar uso regular también al resto de su armadura. Deseando retener cierto grado de anonimato, Stark estableció la ficción de que Iron Man era su guardaespaldas pagado que llevaba una armadura que él (Stark) había inventado. Sólo sus aliados de más confianza sabían que Stark y Iron Man eran uno y el mismo. Al principio, Stark usó su identidad de Iron Man sólo para combatir a espías y a criminales que amenazasen Industrias Stark. Después, expandió el alcance de las actividades de su alter ego para enfrentarse a cualquier fuerza o persona que amenazase la seguridad de América o del mundo. Stark fue instrumental en la organización y armamento de la agencia de inteligencia mundial S.H.I.E.L.D. y, como Iron Man, se convirtió en miembro fundador de los Vengadores. Stark donó su mansión en Manhattan a los Vengadores para uso exclusivo de éstos.</p>
+						</div>
+						<div>
+							<img src="img/12.png" alt="Iron Man">
+						</div>
+					</div>
+					<div>
+						<div>
+							<img src="img/13.png" alt="Iron Man">
+						</div>
+						<div>
+							<p>A lo largo de los años, Stark refinó y modificó el diseño de su armadura constantemente. De un traje blindado transistorizado y voluminoso, Stark eventualmente evolución hasta un uniforme con polaridad magnética, con un circuito integrado relativamente ligero, con una musculatura de aspecto más humano. Stark mantuvo todos sus prototipos y armaduras pasadas en un almacén. El genio natural de Stark en la mecánica teórica le ha permitido mantener su armadura en el estado del arte. Stark eventualmente se sometió a un trasplante de corazón para no estar obligado por más tiempo a llevar su placa metálica pectoral.</p>
+							<p>En años recientes, el mayor enemigo de Tony Stark ha sido el alcoholismo. Como persona mundana adinerada, el alcohol ha sido una parte constante de su vida. Cuando su compañía, que cambió de nombre de Industrias Stark a Stark Internacional, amenazó con una toma de posesión al mismo tiempo que él experimentaba problemas personales opresivos, Stark empezó a abusar del alcohol. Aunque logró recobrarse velozmente de su primer ataque serio, la coacción de beber siguió siendo una tentación constante. La segunda vez que sucumbió al alcoholismo, debido a problemas personales aún más devastadores que la primera vez, Tony Stark se retiró en una borrachera de varios meses durante la cual fue estafado de Stark Internacional, perdió todas sus armaduras salvo una, perdió los contratos de arrendamiento de sus varios apartamentos, y tuvo sus posesiones personales congeladas de modo que no podía tocar su fortuna. Todo ésto fue debido a la maquinación de misterioso empresario europeo Obadiah Stane. Durante este tiempo, el amigo y piloto de Stark James Rhodes asumió la custodia de la armadura de Iron Man y continuó en su lugar. Cuando Stark recuperó finalmente su sobriedad, se unió a Rhodes y a dos amigos de Rhodes, Morley Erwin (antes de Stark Internacional) y su hermana Clytemnestra Erwin (antes de Empresas Richmond) para levantar una nueva firma de electrónica en California llamada Circuitos Máximus. En su breve existencia, Circuitos Máximus se convirtió en una firma prestigiosa y de gran éxito.</p>
+						</div>
+					</div>
+					<div>
+						<div>
+							<p>Mientras la armadura estaba en su custodia, James Rhodes se enamoró más y más de ser Iron Man, y, al regreso de Stark a la sobriedad, temía que Stark se la pidiera de vuelta. Ésto, combinado con los dolores de cabeza causados por el hecho de que el casco cibernético nunca había sido ajustado convenientemente para los patrones mentales de Rhodes, empezó a manifestarse como una hostilidad creciente hacia Stark. Como terapia, Stark construyó una armadura simple basada en su diseño original, sin intención de ponérsela hasta que sintiese que controlaba su alcoholismo. Cuando Rhodes empezó a actuar irracionalmente, en cambio, Stark se sintió obligado a ponerse este juego crudo de armadura para impedir que Rhodes causase daños. Stark logró dominar a Rhodes e hizo las recalibraciones necesarias en los aparatos cibernéticos. Durante un breve tiempo, Stark y Rhodes usaron sus uniformes respectivos de armadura como Iron Men, Los Hombres de Hierro, aunque Stark lo hacía de mala gana. A sugerencia del presidente de los Nuevos Vengadores, Ojo de Halcón, Stark diseñó y construyó su armadura más sofisticada hasta la fecha, presumiblemente para que los Vengadores pudiesen encontrar a alguien que la llevase y aumentar la fuerza del equipo.</p>
+						</div>
+						<div>
+							<img src="img/14.png" alt="Iron Man">
+						</div>
+					</div>
+					<div>
+						<div>
+							<img src="img/15.png" alt="Iron Man">
+						</div>
+						<div>
+							<p>En cambio, poco después de completarla, Obadiah Stane, alarmado por los pasos de Stark hacia la recuperación, bombardeó Circuitos Máximus, hiriendo a Rhodes y matando a Morley Erwin. Deseando venganza, Stark se puso su nueva armadura no probada y buscó a Stane. El mismo Stane se puso una armadura que sus ingenieros había construido usando los planos de Stane y se enfrentó a Iron Man en combate como el Quincallero. Perdiendo la batalla contra Stark, Stane se suicidó. Stark decidió que, aunque nunca podría escapar del espectro del alcoholismo, tampoco podía negar las responsabilidades de ser Iron Man. Como Iron Man, se unió a los Nuevos Vengadores, y, como Tony Stark, empezó una nueva compañía de diseño y manufactura, especializada en tecnología espacial.</p>
+							<p>Durante un reciente examen de la armadura de batalla de Fuerza, Stark notó que usaba patrones de circuitería similares a los de su propio diseño de Iron Man. Investigaciones posteriores revelaron que el Espía Maestro había robado la información de diseño cuando estaba en las filas de Stark Internacional. El Espía Maestro, a cambio, vendió los datos a Justin Hammer. Hammer usó los datos para aumentar las armaduras de varios villanos de alta tecnología. Stark se metió en un breve alboroto durante el cual desmontó personalmente las armaduras de varios villanos, héroes y fuerzas gubernamentales, incluidos el Zancudo, el Macero, el Controlador, los Incursores, el Escarabajo, los Centinelas del Proyecto Pegaso, los Mandroides de S.H.I.E.L.D., el Hombre de Titanio y la Dinamo Carmesí. Varios cambios drásticos ocurrieron en la vida de Iron Man como resultado. Stark "despidió" a Iron Man, los Vengadores lo expulsaron (y a Stark también), el gobierno americano declaró traidor a Iron Man y la U.R.S.S. declaró a Iron Man culpable del aparente asesinato de Duende, el usuario de la armadura del Hombre de Titanio II.</p>
+						</div>
+					</div>
+					<div>
+						<div>
+							<p>Usando un virus informático, Stark borró todos los informes acerca de sus diseños de todos los bancos de datos del mundo. Además, creó un sistema de alerta global ante cualquier uso de la tecnología. Pero había una armadura que Stark no conocía. Esto pronto se subsanó, porque el gobierno la empleó para detener a Iron Man y Poder de Fuego atacó. Aunque Stark sobrevivió, hizo que el mundo creyese que, quienquiera que hubiera sido Iron Man durante todos aquellos años, había muerto. Cuando Poder de Fuego se convirtió en una marioneta de Edwin Cord, Stark diseñó una nueva armadura más poderosa con la que pudo derrotar a Poder de Fuego. El "nuevo" Iron Man tenía un historial limpio.</p>
+							<p>En este momento, la armadura se controla a distancia. Jim Rhodes tiene acceso a otra armadura similar, aunque más sombría, llamada War Machine.</p>
+						</div>
+						<div>
+							<img src="img/16.png" alt="Iron Man">
+						</div>
+					</div>
+				</div>
+			</article>
+			<article>
+				<div class="comics">
+					<div class="titulo-seccion">Cómics</div>
+					<table>
+						<tbody>
+							<tr>
+								<th>Titulo</th>
+								<th>Autor</th>
+								<th>Fecha</th>
+								<th>Imagen</th>
+							</tr>
+							<tr>
+								<td>Alone Against A.I.M.!</td>
+								<td>Marvel</td>
+								<td>Mayo, 1968</td>
+								<td><img src="img/1.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>Marvel Masterworks: The Avengers Vol. 11 HC</td>
+								<td>Marvel</td>
+								<td>1998</td>
+								<td><img src="img/2.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>Black Widow: The Name of the Rose</td>
+								<td>Marvel</td>
+								<td>2001</td>
+								<td><img src="img/3.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>New Avengers #27</td>
+								<td>Marvel</td>
+								<td>1993</td>
+								<td><img src="img/4.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>Avengers Assemble #2</td>
+								<td>Marvel</td>
+								<td>2007</td>
+								<td><img src="img/5.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>Invincible Iron Man #511</td>
+								<td>Marvel</td>
+								<td>2009</td>
+								<td><img src="img/6.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>INVINCIBLE IRON MAN #509</td>
+								<td>Marvel</td>
+								<td>2008</td>
+								<td><img src="img/8.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>INVINCIBLE IRON MAN </td>
+								<td>Marvel</td>
+								<td>2008</td>
+								<td><img src="img/7.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>THE IRON AGE #2</td>
+								<td>Marvel</td>
+								<td>2010</td>
+								<td><img src="img/9.jpg" alt="Iron Man"></td>
+							</tr>
+							<tr>
+								<td>IRON AGE: ALPHA #1</td>
+								<td>Marvel</td>
+								<td>2010</td>
+								<td><img src="img/10.jpg" alt="Iron Man"></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</article>
+		</section>
+		<section>
+			<article></article>
+			<article>
+				<div class="contacto">
+					<div class="titulo-seccion">Cuestionario</div>
+					<form action="#" method="POST">
+						<div class="input-field col s12">
+							<input list="superheroes" name="list" />
+							<datalist id="superheroes">
+								<option value="" disabled selected>Choose your option</option>
+							    <option label="Iron Man" value="Iron Man" />
+							    <option label="The Hulk" value="The Hulk"/>
+							    <option label="Thor" value="Thor"/>
+							</datalist>
+							<label id="superheroes">Superhéroe favorito</label>
+						</div>
+						<div class="input-field col s12">
+							<i class="material-icons prefix">face</i>
+							<input id="icon_prefix2" type="text">
+							<label for="icon_prefix2">Nombre</label>
+						</div>
+						<div class="input-field col s12">
+							<i class="material-icons prefix">email</i>
+							<input id="icon_prefix" type="email" class="validate">
+							<label for="icon_prefix">Email</label>
+						</div>
+						<button class="btn waves-effect waves-light red darken-4" type="submit" name="action">
+							Enviar
+					    	<i class="material-icons right">send</i>
+					  	</button>
+					</form>
+				</div>
+			</article>
+			<article></article>
+		</section>
+	</main>
+</body>
+</html>
