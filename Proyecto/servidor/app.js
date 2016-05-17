@@ -36,7 +36,7 @@ app.post('/', upload.array(), function (req, res){
 	        result.rss.channel[0].item.unshift({
 	        	title: [req.body.titulo],
 	        	link: [req.body.link],
-	        	descripcion: [req.body.descripcion],
+	        	description: [req.body.descripcion + '<img src="'+req.body.imagen+'" /img>'],
 	        	image: [{
 	        		url: [req.body.imagen]
 	        	}]

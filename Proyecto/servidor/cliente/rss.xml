@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss version="2.0">
   <channel>
-    <title>W3Schools Home Page</title>
-    <link>http://www.w3schools.com</link>
-    <description>Free web building tutorials</description>
+    <title>Iron Man</title>
+    <link>http://localhost:3000</link>
+    <description>Iron man web</description>
     <item>
-      <title>a</title>
-      <link>s</link>
-      <descripcion>d</descripcion>
+      <title>Apple lanza iTunes 12.4 con algunos cambios en su interfaz</title>
+      <link>http://feeds.weblogssl.com/~r/applesfera/~3/6cZDO0LXEfY/apple-lanza-itunes-12-4-con-algunos-cambios-en-su-interfaz</link>
+      <description>Además de todas las actualizaciones con las que nos hemos topado esta tarde, Apple también nos ha traído algo que no muchos se esperaban: un retoque de la interfaz de iTunes con su versión 12.4, ya disponible para todo el mundo. Basta que abráis la Mac App Store en vuestro Mac para que la actualización gratuita os aparezca.&lt;img src="http://i.blogs.es/1ebbc3/itunes_124/650_1200.jpg" /img&gt;</description>
       <image>
-        <url>s</url>
+        <url>http://i.blogs.es/1ebbc3/itunes_124/650_1200.jpg</url>
       </image>
     </item>
     <item>
-      <title>El titulo</title>
-      <link>el link</link>
-      <descripcion>la descripcion</descripcion>
+      <title>Apple actualiza GarageBand añadiendo nuevos instrumentos y sonidos chinos</title>
+      <link>http://feeds.weblogssl.com/~r/applesfera/~3/kvg2_qmg5U0/apple-actualiza-garageband-anadiendo-nuevos-instrumentos-y-sonidos-chinos</link>
+      <description>Tras las actualizaciones de los sistemas operativos y de iTunes, ahora es el turno de GarageBand, que se ha actualizado a las versiones 2.1.1 y 10.1.2 en iOS y OS X respectivamente.&lt;img src="http://i.blogs.es/e7a15b/cristianrus4-2016-05-17-a-las-8.07.48/650_1200.png" /img&gt;</description>
       <image>
-        <url>url de la imagen</url>
+        <url>http://i.blogs.es/e7a15b/cristianrus4-2016-05-17-a-las-8.07.48/650_1200.png</url>
+      </image>
+    </item>
+    <item>
+      <title>Qué es y cómo liberar el espacio Otros en el almacenamiento del Mac</title>
+      <link>http://feeds.weblogssl.com/~r/applesfera/~3/idFSe8jn7vM/que-es-y-como-liberar-el-espacio-otros-en-el-almacenamiento-del-mac</link>
+      <description>Si tienes un espacio de almacenamiento limitado en tu Mac seguramente en más de una ocasión te has preguntado qué significa el espacio Otros y cómo podrías reducirlo para ahorrar algo de memoria. Influyen diferentes factores, pero vamos a ver cómo optimizar al máximo este aspecto del ordenador.
+      &lt;img src="http://i.blogs.es/49fada/cristianrus4-2016-05-17-a-las-0.23.02/650_1200.png" &gt;
+      </description>
+      <image>
+        <url>http://i.blogs.es/49fada/cristianrus4-2016-05-17-a-las-0.23.02/650_1200.png</url>
+      </image>
+    </item>
+    <item>
+      <title>El iPhone también tiene receptor FM, aunque Apple nunca lo ha activado</title>
+      <link>http://feeds.weblogssl.com/~r/applesfera/~3/toaPf7PXfwc/el-iphone-tambien-tiene-receptor-fm-aunque-apple-nunca-lo-ha-activado</link>
+      <description>Desde luego el iPhone no deja de sorprender, como la mayoría de teléfonos Android, dispone de un chip receptor FM. Un último movimiento en Canadá y Estados Unidos está pidiendo la posibilidad de utilizar un este chip en la mayoría de teléfonos parar situaciones de emergencia donde la red de comunicación puede estar saturada.
+        &lt;img src="http://i.blogs.es/55e6fb/15127678617_6f2a1f5f2f_o/650_1200.jpg" &gt;</description>
+      <image>
+        <url>http://i.blogs.es/55e6fb/15127678617_6f2a1f5f2f_o/650_1200.jpg</url>
       </image>
     </item>
   </channel>
