@@ -8,14 +8,13 @@
 	</tr>
 
 {
-
-for $x in doc("facturas.xml")//factura
-order by sum($x//precio) descending
-return 	<tr>
-		<td>{data($x//cliente)}</td>
-		<td>{sum($x//precio)}</td>
+for $x in doc("facturas.xml")//factura/cliente
+order by sum(sum($x/../articulo/precio)) descending
+group by $x
+return <tr>
+	<td>{data($x)}</td>
+	<td>{sum($x/../articulo/precio)}</td>
 	</tr>
-	
 }
 </table>
 </body>

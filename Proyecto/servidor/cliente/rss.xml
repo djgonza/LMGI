@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Iron Man</title>
     <link>http://localhost:3000</link>
     <description>Iron man web</description>
-    <item>
-      <title>1</title>
-      <link>2</link>
-      <description>3&lt;img src="47" /img&gt;</description>
-      <image>
-        <url>47</url>
-      </image>
-    </item>
+    <language>es-ES</language>
+    <atom:link href="http://localhost:3000" rel="self" type="application/rss+xml" />
     <item>
       <title>Apple lanza iTunes 12.4 con algunos cambios en su interfaz</title>
       <link>http://feeds.weblogssl.com/~r/applesfera/~3/6cZDO0LXEfY/apple-lanza-itunes-12-4-con-algunos-cambios-en-su-interfaz</link>
-      <description>Además de todas las actualizaciones con las que nos hemos topado esta tarde, Apple también nos ha traído algo que no muchos se esperaban: un retoque de la interfaz de iTunes con su versión 12.4, ya disponible para todo el mundo. Basta que abráis la Mac App Store en vuestro Mac para que la actualización gratuita os aparezca.&lt;img src="http://i.blogs.es/1ebbc3/itunes_124/650_1200.jpg" /img&gt;</description>
+      <description>Además de todas las actualizaciones con las que nos hemos topado esta tarde, Apple también nos ha traído algo que no muchos se esperaban: un retoque de la interfaz de iTunes con su versión 12.4, ya disponible para todo el mundo. Basta que abráis la Mac App Store en vuestro Mac para que la actualización gratuita os aparezca.&lt;![CDATA[&lt;img src="http://i.blogs.es/1ebbc3/itunes_124/650_1200.jpg" /img&gt;]]&gt;</description>
       <image>
         <url>http://i.blogs.es/1ebbc3/itunes_124/650_1200.jpg</url>
       </image>
