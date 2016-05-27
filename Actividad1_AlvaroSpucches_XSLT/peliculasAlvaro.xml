@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="peliculas.xsl"?>
+<peliculas>
+
+    <pelicula numref="1">
+        <titulo>Cadena Perpetua</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <genero>Drama</genero>
+        <director>Frank Darabont</director>
+        <duracion>142</duracion>
+        <precio>12</precio>
+    </pelicula>
+
+    <pelicula numref="2">
+        <titulo>El Padrino</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <genero>Drama</genero>
+        <director>Francis Ford Coppola</director>
+        <duracion>175</duracion>
+        <precio>8</precio>
+    </pelicula>
+
+    <pelicula numref="3">
+        <titulo>Bienvenidos al norte</titulo>
+        <nacionalidad>Francia</nacionalidad>
+        <genero>Comedia</genero>
+        <director>Dany Boon</director>
+        <duracion>92</duracion>
+        <precio>9</precio>
+    </pelicula>
+
+    <pelicula numref="4">
+        <titulo>La Patota</titulo>
+        <nacionalidad>Argentina</nacionalidad>
+        <genero>Drama</genero>
+        <director>Santiago Mitre</director>
+        <duracion>101</duracion>
+        <precio>11</precio>
+    </pelicula>
+
+    <pelicula numref="5">
+        <titulo>El Caballero Oscuro</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <genero>Accion</genero>
+        <director>Christopher Nolan</director>
+        <duracion>133</duracion>
+        <precio>9</precio>
+    </pelicula>
+
+    <pelicula numref="6">
+        <titulo>X-Men</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <genero>Ciencia Ficcion</genero>
+        <director>Bryan Singer</director>
+        <duracion>96</duracion>
+        <precio>5</precio>
+    </pelicula>
+
+    <pelicula numref="7">
+        <titulo>El Cartero</titulo>
+        <nacionalidad>Italia</nacionalidad>
+        <genero>Romantica</genero>
+        <director>Michael Radford</director>
+        <duracion>108</duracion>
+        <precio>6</precio>
+    </pelicula>
+
+    <pelicula numref="8">
+        <titulo>Salvar al soldado Ryan</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <genero>Bélica</genero>
+        <director>Steven Spielberg</director>
+        <duracion>169</duracion>
+        <precio>7</precio>
+    </pelicula>
+
+    <pelicula numref="9">
+        <titulo>Regreso al Futuro</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <genero>Ciencia Ficción</genero>
+        <director>Robert Zemeckis</director>
+        <duracion>136</duracion>
+        <precio>10</precio>
+    </pelicula>
+
+    <pelicula numref="10">
+        <titulo>Ocho apellidos vascos</titulo>
+        <nacionalidad>España</nacionalidad>
+        <genero>Comedia</genero>
+        <director>Emilio Martínez Lázaro</director>
+        <duracion>98</duracion>
+        <precio>11</precio>
+    </pelicula>
+
+    <pelicula numref="11">
+        <titulo>Perdiendo el Norte</titulo>
+        <nacionalidad>España</nacionalidad>
+        <genero>Comedia</genero>
+        <director>Nacho G. Velilla</director>
+        <duracion>104</duracion>
+        <precio>9</precio>
+    </pelicula>
+
+    <pelicula numref="12">
+        <titulo>Divergente</titulo>
+        <nacionalidad>EEUU</nacionalidad>
+        <genero>Ciencia Ficción</genero>
+        <director>Neil Burger</director>
+        <duracion>140</duracion>
+        <precio>12</precio>
+    </pelicula>
+
+</peliculas>
