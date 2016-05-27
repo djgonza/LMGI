@@ -3,29 +3,29 @@
 <peliculas>
 
     <pelicula numref="1">
-        <titulo>Cadena Perpetua</titulo>
+        <titulo>X-Men: Apocalipsis</titulo>
         <nacionalidad>EEUU</nacionalidad>
-        <genero>Drama</genero>
-        <director>Frank Darabont</director>
-        <duracion>142</duracion>
-        <precio>12</precio>
+        <genero>Accion</genero>
+        <director>Bryan Singer</director>
+        <duracion>147</duracion>
+        <precio>10</precio>
     </pelicula>
 
     <pelicula numref="2">
-        <titulo>El Padrino</titulo>
+        <titulo>Capitán América: Civil War</titulo>
         <nacionalidad>EEUU</nacionalidad>
-        <genero>Drama</genero>
-        <director>Francis Ford Coppola</director>
-        <duracion>175</duracion>
-        <precio>8</precio>
+        <genero>Accion</genero>
+        <director>Anthony Russo</director>
+        <duracion>130</duracion>
+        <precio>15</precio>
     </pelicula>
 
     <pelicula numref="3">
-        <titulo>Bienvenidos al norte</titulo>
-        <nacionalidad>Francia</nacionalidad>
+        <titulo>Deadpool</titulo>
+        <nacionalidad>EEUU</nacionalidad>
         <genero>Comedia</genero>
-        <director>Dany Boon</director>
-        <duracion>92</duracion>
+        <director>Tim Miller</director>
+        <duracion>80</duracion>
         <precio>9</precio>
     </pelicula>
 
@@ -34,16 +34,16 @@
         <nacionalidad>Argentina</nacionalidad>
         <genero>Drama</genero>
         <director>Santiago Mitre</director>
-        <duracion>101</duracion>
+        <duracion>75</duracion>
         <precio>11</precio>
     </pelicula>
 
     <pelicula numref="5">
-        <titulo>El Caballero Oscuro</titulo>
+        <titulo>Finding Dory</titulo>
         <nacionalidad>EEUU</nacionalidad>
-        <genero>Accion</genero>
-        <director>Christopher Nolan</director>
-        <duracion>133</duracion>
+        <genero>Infantil</genero>
+        <director>Andrew Stanton</director>
+        <duracion>150</duracion>
         <precio>9</precio>
     </pelicula>
 
@@ -52,26 +52,26 @@
         <nacionalidad>EEUU</nacionalidad>
         <genero>Ciencia Ficcion</genero>
         <director>Bryan Singer</director>
-        <duracion>96</duracion>
+        <duracion>120</duracion>
         <precio>5</precio>
     </pelicula>
 
     <pelicula numref="7">
-        <titulo>El Cartero</titulo>
+        <titulo>Zootrópolis</titulo>
         <nacionalidad>Italia</nacionalidad>
         <genero>Romantica</genero>
-        <director>Michael Radford</director>
-        <duracion>108</duracion>
+        <director>Jared Bush</director>
+        <duracion>50</duracion>
         <precio>6</precio>
     </pelicula>
 
     <pelicula numref="8">
-        <titulo>Salvar al soldado Ryan</titulo>
+        <titulo>Escuadrón Suicida</titulo>
         <nacionalidad>EEUU</nacionalidad>
-        <genero>Bélica</genero>
-        <director>Steven Spielberg</director>
-        <duracion>169</duracion>
-        <precio>7</precio>
+        <genero>Accion</genero>
+        <director>David Ayer</director>
+        <duracion>75</duracion>
+        <precio>12</precio>
     </pelicula>
 
     <pelicula numref="9">
@@ -79,24 +79,24 @@
         <nacionalidad>EEUU</nacionalidad>
         <genero>Ciencia Ficción</genero>
         <director>Robert Zemeckis</director>
-        <duracion>136</duracion>
-        <precio>10</precio>
+        <duracion>220</duracion>
+        <precio>15</precio>
     </pelicula>
 
     <pelicula numref="10">
-        <titulo>Ocho apellidos vascos</titulo>
+        <titulo>Independence Day: Contraataque</titulo>
         <nacionalidad>España</nacionalidad>
         <genero>Comedia</genero>
-        <director>Emilio Martínez Lázaro</director>
-        <duracion>98</duracion>
-        <precio>11</precio>
+        <director>Roland Emmerich</director>
+        <duracion>316</duracion>
+        <precio>5</precio>
     </pelicula>
 
     <pelicula numref="11">
-        <titulo>Perdiendo el Norte</titulo>
+        <titulo>Angry Birds: La Película</titulo>
         <nacionalidad>España</nacionalidad>
         <genero>Comedia</genero>
-        <director>Nacho G. Velilla</director>
+        <director>Fergal Reilly</director>
         <duracion>104</duracion>
         <precio>9</precio>
     </pelicula>
@@ -106,8 +106,8 @@
         <nacionalidad>EEUU</nacionalidad>
         <genero>Ciencia Ficción</genero>
         <director>Neil Burger</director>
-        <duracion>140</duracion>
-        <precio>12</precio>
+        <duracion>50</duracion>
+        <precio>7</precio>
     </pelicula>
 
 </peliculas>
